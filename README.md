@@ -1,5 +1,5 @@
 ## Antize TFT
-Free Character and object manager for Teamfight-Tactics
+Free character and object manager for Teamfight-Tactics
 
 ## Last Version
 **Antize TFT (Ver.0.1)**
