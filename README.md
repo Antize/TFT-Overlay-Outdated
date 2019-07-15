@@ -1,9 +1,8 @@
 ## Antize TFT
-
 Free Character and object manager for Teamfight-Tactics
 
 ## Last Version
-**Free CCleaner Auto Update (Ver.0.1)**
+**Antize TFT (Ver.0.1)**
 
 ## Do you have an issue?
 [Come on Discord:](https://discord.gg/GXZwBeG) https://discord.gg/GXZwBeG
