@@ -1,12 +1,12 @@
 ## Antize TFT
 Free character and object manager for League of Legends: Teamfight Tactics.
 
-Antize TFT can be put over your game to get an overview of characters and objects while playing, your game must not be in full screen.
+Antize TFT can be put over your game to get an overview of characters and objects while playing, your game must set in Borderless or Windowed
 
-LoL TFT, League of Legends: Teamfight Tactics.
+LoL: Teamfight Tactics, League of Legends: TFT.
 
 ## Last Version
-**Antize TFT (Ver.0.1)**
+**Antize TFT (Ver.0.2)**
 
 ## Do you have an issue?
 [Come on Discord:](https://discord.gg/GXZwBeG) https://discord.gg/GXZwBeG
@@ -17,7 +17,7 @@ LoL TFT, League of Legends: Teamfight Tactics.
 ## How do I get started ?
 There are ready-to-use software, just place it in a folder for example on the desktop and run.
 
-To put Antize TFT on top of your game, your game must not be in full screen.
+To put Antize TFT on top of your game, your game must set in Borderless or Windowed
 
 Inside of package, you must have the following files:
 - **Antize TFT.exe:** Software
