@@ -1,3 +1,6 @@
+![Preview](Exemple1.png)
+![Preview](Exemple2.png)
+
 ## Antize TFT
 Free character and object manager for League of Legends: Teamfight Tactics.
 
