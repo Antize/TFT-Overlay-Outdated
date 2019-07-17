@@ -19,7 +19,9 @@ Antize TFT Overlay can be put over your game to get an overview of characters an
 
 LoL: Teamfight Tactics, League of Legends: TFT.
 
-## Do you have an issue?
+## Do you have an issue ?
+Do you have an issue or if you think there is an error in data, just open an issue or send me a message through Discord, I will proceed to the changes as soon as possible.
+
 [Come on Discord:](https://discord.gg/GXZwBeG) https://discord.gg/GXZwBeG
 
 ## Known issues
