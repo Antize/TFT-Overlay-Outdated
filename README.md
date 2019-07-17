@@ -26,6 +26,7 @@ Do you have an issue or if you think there is an error in data, just open an iss
 
 ## Known issues
 - If **Antize TFT Overlay** is launched as admin Malwarebytes detects as false positive, general problem with C# software.
+- Windows defender (Smart screen) block for unrecognized app. :)
 
 ## How do I get started ?
 There are ready-to-use software, just place it in a folder for example on the desktop and run.
