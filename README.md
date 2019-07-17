@@ -13,9 +13,9 @@
 ![Preview](Images/Exemple.png)
 
 ## Antize TFT Overlay
-Free character and object manager for League of Legends: Teamfight Tactics.
+Free Team and item builder for League of Legends: Teamfight Tactics.
 
-Antize TFT Overlay can be put over your game to get an overview of characters and objects while playing, your game must set in Borderless or Windowed
+Antize TFT Overlay can be put over your game to get an overview of Team and item while playing, your game must set in Borderless or Windowed
 
 LoL: Teamfight Tactics, League of Legends: TFT.
 
