@@ -4,13 +4,13 @@
 
 ## Preview
 
-![Preview](Exemple1.png)
+![Preview](Images/Exemple1.png)
 
-![Preview](Exemple2.png)
+![Preview](Images/Exemple2.png)
 
-![Preview](Exemple3.png)
+![Preview](Images/Exemple3.png)
 
-![Preview](Exemple4.png)
+![Preview](Images/Exemple4.png)
 
 ## Antize TFT Overlay
 Free character and object manager for League of Legends: Teamfight Tactics.
