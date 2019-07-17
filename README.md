@@ -25,7 +25,7 @@ Do you have an issue or if you think there is an error in data, just open an iss
 [Come on Discord:](https://discord.gg/GXZwBeG) https://discord.gg/GXZwBeG
 
 ## Known issues
-- If **Antize TFT** is launched as admin Malwarebytes detects as false positive, general problem with C# software.
+- If **Antize TFT Overlay** is launched as admin Malwarebytes detects as false positive, general problem with C# software.
 
 ## How do I get started ?
 There are ready-to-use software, just place it in a folder for example on the desktop and run.
