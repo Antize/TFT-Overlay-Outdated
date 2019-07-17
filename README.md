@@ -2,17 +2,13 @@
 ## Last Version
 **Antize TFT (Ver.0.3)**
 
-
 ## Preview
-<p align="center">
-  
+
 ![Preview](Exemple1.png)
 
-</p>
 ![Preview](Exemple2.png)
 
 ![Preview](Exemple3.png)
-
 
 
 ## Antize TFT Overlay
