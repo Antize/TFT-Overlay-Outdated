@@ -19,7 +19,7 @@ Free Team and item builder tool for League of Legends: Teamfight Tactics.
 
 Antize TFT Overlay can be put over your game to get an overview of your team and item while playing, your game must set in Borderless or Windowed
 
-LoL: Teamfight Tactics, League of Legends: TFT.
+LoL: Teamfight tool Tactics, League of Legends: TFT tool.
 
 ## Do you have an issue ?
 If you have an issue or you think there is an error in data, just open an issue or send me a message through Discord, I will proceed to the changes as soon as possible.
