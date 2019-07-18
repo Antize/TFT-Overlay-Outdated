@@ -3,7 +3,6 @@
 **Antize TFT (Ver.0.4)**
 
 ## Preview
-
 ![Preview](Images/Exemple1.png)
 
 ![Preview](Images/Exemple2.png)
@@ -13,14 +12,14 @@
 ![Preview](Images/Exemple.png)
 
 ## Antize TFT Overlay
-Free Team and item builder for League of Legends: Teamfight Tactics.
+Free Team and item builder tool for League of Legends: Teamfight Tactics.
 
-Antize TFT Overlay can be put over your game to get an overview of Team and item while playing, your game must set in Borderless or Windowed
+Antize TFT Overlay can be put over your game to get an overview of your team and item while playing, your game must set in Borderless or Windowed
 
 LoL: Teamfight Tactics, League of Legends: TFT.
 
 ## Do you have an issue ?
-Do you have an issue or if you think there is an error in data, just open an issue or send me a message through Discord, I will proceed to the changes as soon as possible.
+If you have an issue or you think there is an error in data, just open an issue or send me a message through Discord, I will proceed to the changes as soon as possible.
 
 [Come on Discord:](https://discord.gg/GXZwBeG) https://discord.gg/GXZwBeG
 
@@ -31,7 +30,7 @@ Do you have an issue or if you think there is an error in data, just open an iss
 ## How do I get started ?
 There are ready-to-use software, just place it in a folder for example on the desktop and run.
 
-To put Antize TFT on top of your game, your game must set in Borderless or Windowed
+To put Antize TFT Overlay on top of your game, your game must set in Borderless or Windowed.
 
 Inside of package, you must have the following files:
 - **Antize TFT.exe:** Software
