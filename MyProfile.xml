@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OnlyOneType>false</OnlyOneType>
+  <SelectedProfile>1</SelectedProfile>
+  <Profile1 />
+  <Profile2 />
+  <Profile3 />
+  <Profile4 />
+  <Profile5 />
+  <ChampionItems>
+    <anyType xsi:type="xsd:string">0|14|12|26|</anyType>
+    <anyType xsi:type="xsd:string">1|38|12|26|</anyType>
+    <anyType xsi:type="xsd:string">2|33|12|26|</anyType>
+    <anyType xsi:type="xsd:string">3|25|14|26|</anyType>
+    <anyType xsi:type="xsd:string">4|29|8|35|</anyType>
+    <anyType xsi:type="xsd:string">5|26|12|17|</anyType>
+    <anyType xsi:type="xsd:string">6|20|28|26|</anyType>
+    <anyType xsi:type="xsd:string">7|14|12|26|</anyType>
+    <anyType xsi:type="xsd:string">8|17|17|28|</anyType>
+    <anyType xsi:type="xsd:string">9|29|35|28|</anyType>
+    <anyType xsi:type="xsd:string">10|17|17|28|</anyType>
+    <anyType xsi:type="xsd:string">11|14|39|38|</anyType>
+    <anyType xsi:type="xsd:string">12|33|17|27|</anyType>
+    <anyType xsi:type="xsd:string">13|17|33|27|</anyType>
+    <anyType xsi:type="xsd:string">14|14|23|42|</anyType>
+    <anyType xsi:type="xsd:string">15|43|23|42|</anyType>
+    <anyType xsi:type="xsd:string">16|27|27|24|</anyType>
+    <anyType xsi:type="xsd:string">17|43|23|42|</anyType>
+    <anyType xsi:type="xsd:string">18|33|33|17|</anyType>
+    <anyType xsi:type="xsd:string">19|14|39|38|</anyType>
+    <anyType xsi:type="xsd:string">20|14|12|26|</anyType>
+    <anyType xsi:type="xsd:string">21|33|33|17|</anyType>
+    <anyType xsi:type="xsd:string">22|17|33|27|</anyType>
+    <anyType xsi:type="xsd:string">23|20|28|26|</anyType>
+    <anyType xsi:type="xsd:string">24|9|12|26|</anyType>
+    <anyType xsi:type="xsd:string">25|33|33|28|</anyType>
+    <anyType xsi:type="xsd:string">26|33|17|27|</anyType>
+    <anyType xsi:type="xsd:string">27|33|12|26|</anyType>
+    <anyType xsi:type="xsd:string">28|25|32|32|</anyType>
+    <anyType xsi:type="xsd:string">29|43|23|42|</anyType>
+    <anyType xsi:type="xsd:string">30|43|23|42|</anyType>
+    <anyType xsi:type="xsd:string">31|14|12|26|</anyType>
+    <anyType xsi:type="xsd:string">32|20|28|26|</anyType>
+    <anyType xsi:type="xsd:string">33|38|39|26|</anyType>
+    <anyType xsi:type="xsd:string">34|33|33|32|</anyType>
+    <anyType xsi:type="xsd:string">35|28|29|35|</anyType>
+    <anyType xsi:type="xsd:string">36|32|26|27|</anyType>
+    <anyType xsi:type="xsd:string">37|33|33|28|</anyType>
+    <anyType xsi:type="xsd:string">38|33|17|27|</anyType>
+    <anyType xsi:type="xsd:string">39|14|12|26|</anyType>
+    <anyType xsi:type="xsd:string">40|17|20|28|</anyType>
+    <anyType xsi:type="xsd:string">41|38|12|26|</anyType>
+    <anyType xsi:type="xsd:string">42|43|23|42|</anyType>
+    <anyType xsi:type="xsd:string">43|14|23|42|</anyType>
+    <anyType xsi:type="xsd:string">44|33|12|26|</anyType>
+    <anyType xsi:type="xsd:string">45|33|27|17|</anyType>
+    <anyType xsi:type="xsd:string">46|32|32|27|</anyType>
+    <anyType xsi:type="xsd:string">47|33|33|17|</anyType>
+    <anyType xsi:type="xsd:string">48|32|32|25|</anyType>
+    <anyType xsi:type="xsd:string">49|16|12|26|</anyType>
+    <anyType xsi:type="xsd:string">50|32|12|26|</anyType>
+  </ChampionItems>
+  <UpdateLink>https://github.com/Antize/TFT-Overlay</UpdateLink>
+  <UpdateFindStart>(Ver.</UpdateFindStart>
+  <UpdateFindEnd>)</UpdateFindEnd>
+  <EnableCheckForUpdate>true</EnableCheckForUpdate>
+  <ShowErrors>false</ShowErrors>
+</UserSettings>
