@@ -40,7 +40,7 @@ Inside of package, you must have the following files:
 - **MyProfile.xml:** User settings
 
 ## Prerequisite
-May be **Net Framework 4.0**
+May be **Net Framework 4.5**
 
 ## Authors
 - Antize
