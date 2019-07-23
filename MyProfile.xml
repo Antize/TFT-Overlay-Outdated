@@ -2,11 +2,7 @@
 <UserSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <OnlyOneType>true</OnlyOneType>
   <SelectedProfile>1</SelectedProfile>
-  <Profile1 />
-  <Profile2 />
-  <Profile3 />
-  <Profile4 />
-  <Profile5 />
+  <SelectedSubProfile>0</SelectedSubProfile>
   <UpdateLink>https://github.com/Antize/TFT-Overlay</UpdateLink>
   <UpdateFindStart>(Ver.</UpdateFindStart>
   <UpdateFindEnd>)</UpdateFindEnd>
