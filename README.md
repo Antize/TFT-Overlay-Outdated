@@ -1,6 +1,6 @@
 
 ## Last Version
-**Antize TFT (Ver.1.0)**
+**Antize TFT (Ver.1.01)**
 
 ## Preview
 ![Preview](Images/Exemple1.png)
