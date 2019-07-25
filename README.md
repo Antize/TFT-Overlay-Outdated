@@ -1,6 +1,6 @@
 
 ## Last Version
-**Antize TFT (Ver.1.01)**
+**Antize TFT (Ver.1.1)**
 
 ## Preview
 ![Preview](Images/Exemple1.png)
@@ -32,9 +32,9 @@ If you have an issue or you think there is an error in data, just open an issue 
 - Avast : IDP Generic detect as false positive.
 
 ## How do I get started ?
-There are ready-to-use software, just place it in a folder for example on the desktop and run.
-
-To put Antize TFT Overlay on top of your game, your game must set in Borderless or Windowed.
+  -  [Download TFT-Overlay](https://github.com/Antize/TFT-Overlay/releases/)  
+  -  Extract files and run `Antize TFT.exe`
+  -  To put Antize TFT Overlay on top of your game, your game must set in Borderless or Windowed.
 
 Inside of package, you must have the following files:
 - **Antize TFT.exe:** Software
