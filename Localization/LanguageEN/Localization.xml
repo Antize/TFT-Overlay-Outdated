@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizationVersion>0.02</LocalizationVersion>
+  <Main_Profile>Profile</Main_Profile>
+  <Main_SubProfile>Sub Profile</Main_SubProfile>
+  <Main_SelectedProfileToolTip>Left click - sort champion list | Right click - Rename Profile</Main_SelectedProfileToolTip>
+  <Main_SelectedSubProfileToolTip>Left click - sort champion list | Right click - Rename Sub Profile</Main_SelectedSubProfileToolTip>
+  <Main_ItemOnlyOneTypeOn>Only one type: On</Main_ItemOnlyOneTypeOn>
+  <Main_ItemOnlyOneTypeOff>Only one type: Off</Main_ItemOnlyOneTypeOff>
+  <Main_ItemEditOn>Edit items: On</Main_ItemEditOn>
+  <Main_ItemEditOff>Edit items: Off</Main_ItemEditOff>
+  <Main_ItemPositionLeft>Position: Left</Main_ItemPositionLeft>
+  <Main_ItemPositionRight>Position: Right</Main_ItemPositionRight>
+  <Main_ItemSave>Save</Main_ItemSave>
+  <Main_ItemLoad>Load</Main_ItemLoad>
+  <Main_ItemSortChampion>Sort champion list</Main_ItemSortChampion>
+  <Main_ItemResetProfile>Reset selected profile</Main_ItemResetProfile>
+  <Main_ItemShowHideShow>Show</Main_ItemShowHideShow>
+  <Main_ItemShowHideHide>Hide</Main_ItemShowHideHide>
+  <Main_ItemAutoUpdateOn>Auto update: On</Main_ItemAutoUpdateOn>
+  <Main_ItemAutoUpdateOff>Auto update: Off</Main_ItemAutoUpdateOff>
+  <Main_ItemShowErrorsOn>Show errors: On</Main_ItemShowErrorsOn>
+  <Main_ItemShowErrorsOff>Show errors: Off</Main_ItemShowErrorsOff>
+  <Main_ItemOption>Options</Main_ItemOption>
+  <Main_ItemCheckingForUpdates>Searching for updates</Main_ItemCheckingForUpdates>
+  <Main_ItemUpdatesAvailable>Updates available</Main_ItemUpdatesAvailable>
+  <Main_ItemNoUpdatesFound>No updates found</Main_ItemNoUpdatesFound>
+  <Main_PlusToolTip>Left click - Up sub profile | Right click - Up profile</Main_PlusToolTip>
+  <Main_MoinsToolTip>Left click - Down sub profile | Right click - Down profile</Main_MoinsToolTip>
+  <MyCheckBox_IconToolTip>Left click - Check/Uncheck | Right click - Filter only </MyCheckBox_IconToolTip>
+  <SlotItem_IconToolTip>Right click - Item Builder Sheet</SlotItem_IconToolTip>
+</Localization>
