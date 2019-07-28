@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizationVersion>0.02</LocalizationVersion>
   <Main_Profile>Profile</Main_Profile>
   <Main_SubProfile>Sub Profile</Main_SubProfile>
-  <Main_SelectedProfileToolTip>Click to sort champion list</Main_SelectedProfileToolTip>
+  <Main_SelectedProfileToolTip>Left click - sort champion list | Right click - Rename Profile</Main_SelectedProfileToolTip>
+  <Main_SelectedSubProfileToolTip>Left click - sort champion list | Right click - Rename Sub Profile</Main_SelectedSubProfileToolTip>
   <Main_ItemOnlyOneTypeOn>Only one type: On</Main_ItemOnlyOneTypeOn>
   <Main_ItemOnlyOneTypeOff>Only one type: Off</Main_ItemOnlyOneTypeOff>
   <Main_ItemEditOn>Edit items: On</Main_ItemEditOn>
