@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OnlyOneType>true</OnlyOneType>
+  <SelectedProfile>1</SelectedProfile>
+  <SelectedSubProfile>0</SelectedSubProfile>
+  <UpdateLink>https://github.com/Antize/TFT-Overlay</UpdateLink>
+  <UpdateFindStart>(Ver.</UpdateFindStart>
+  <UpdateFindEnd>)</UpdateFindEnd>
+  <EnableCheckForUpdate>true</EnableCheckForUpdate>
+  <ShowErrors>false</ShowErrors>
+  <PositionLeft>true</PositionLeft>
+</UserSettings>
