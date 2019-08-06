@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LocalizationVersion>0.02</LocalizationVersion>
+  <LocalizationVersion>0.03</LocalizationVersion>
   <Main_Profile>Profile</Main_Profile>
   <Main_SubProfile>Sub Profile</Main_SubProfile>
   <Main_SelectedProfileToolTip>Left click - sort champion list | Right click - Rename Profile</Main_SelectedProfileToolTip>
@@ -25,8 +25,12 @@
   <Main_ItemCheckingForUpdates>Searching for updates</Main_ItemCheckingForUpdates>
   <Main_ItemUpdatesAvailable>Updates available</Main_ItemUpdatesAvailable>
   <Main_ItemNoUpdatesFound>No updates found</Main_ItemNoUpdatesFound>
+  <Main_ItemPlacementOn>Placement: On</Main_ItemPlacementOn>
+  <Main_ItemPlacementOff>Placement: Off</Main_ItemPlacementOff>
   <Main_PlusToolTip>Left click - Up sub profile | Right click - Up profile</Main_PlusToolTip>
   <Main_MoinsToolTip>Left click - Down sub profile | Right click - Down profile</Main_MoinsToolTip>
   <MyCheckBox_IconToolTip>Left click - Check/Uncheck | Right click - Filter only </MyCheckBox_IconToolTip>
   <SlotItem_IconToolTip>Right click - Item Builder Sheet</SlotItem_IconToolTip>
+  <Placement_Placement>Selected :  </Placement_Placement>
+  <Placement_Reset>Reset</Placement_Reset>
 </Localization>

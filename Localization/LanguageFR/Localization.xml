@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LocalizationVersion>0.02</LocalizationVersion>
+  <LocalizationVersion>0.03</LocalizationVersion>
   <Main_Profile>Profil</Main_Profile>
   <Main_SubProfile>Sub Profil</Main_SubProfile>
   <Main_SelectedProfileToolTip>Clic gauche - Trie la liste de champion | Clic droit - Renomer le profil</Main_SelectedProfileToolTip>
@@ -25,8 +25,12 @@
   <Main_ItemCheckingForUpdates>Recherche des mise à jours</Main_ItemCheckingForUpdates>
   <Main_ItemUpdatesAvailable>Mise à jour disponible</Main_ItemUpdatesAvailable>
   <Main_ItemNoUpdatesFound>Pas de mise à jour trouvée</Main_ItemNoUpdatesFound>
+  <Main_ItemPlacementOn>Placement: On</Main_ItemPlacementOn>
+  <Main_ItemPlacementOff>Placement: Off</Main_ItemPlacementOff>
   <Main_PlusToolTip>Clic gauche - Augmente le sub profil | Click droit - Augmente le profil</Main_PlusToolTip>
   <Main_MoinsToolTip>Clic gauche - Diminue le sub profil | Click droit - Diminue le profil</Main_MoinsToolTip>
   <MyCheckBox_IconToolTip>Clic gauche - Coche/Décoche | Clic droit - Filtre seulement </MyCheckBox_IconToolTip>
   <SlotItem_IconToolTip>Clic droit - Voir la liste des créations</SlotItem_IconToolTip>
+  <Placement_Placement>Sélectionné :  </Placement_Placement>
+  <Placement_Reset>Réinitialiser</Placement_Reset>
 </Localization>
