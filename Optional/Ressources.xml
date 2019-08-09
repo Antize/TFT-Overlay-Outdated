@@ -79,7 +79,7 @@ Enum_Classe
 <options>
 <option key="Champions" value="
 1|Darius|600 / 1080 / 2160|25 / 45 / 90|Enum_Classe.Imperial|Enum_Classe.Knight|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Darius.png|false|Images/Icon.png||
-1|Elise|450 / 810 / 1620|24 / 43 / 86|Enum_Classe.Demon|Enum_Classe.Shapeshifter|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Elise.png|false|Images/Icon.png||
+1|Elise|450 / 810 / 1620|27 / 49 / 97|Enum_Classe.Demon|Enum_Classe.Shapeshifter|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Elise.png|false|Images/Icon.png||
 1|Fiora|400 / 720 / 1440|40 / 72 / 144|Enum_Classe.Noble|Enum_Classe.Blademaster|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Fiora.png|false|Images/Icon.png||
 1|Garen|600 / 1080 / 2160|30 / 54 / 108|Enum_Classe.Noble|Enum_Classe.Knight|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Garen.png|false|Images/Icon.png||
 1|Graves|450 / 810 / 1620|30 / 54 / 109|Enum_Classe.Pirate|Enum_Classe.Gunslinger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Graves.png|false|Images/Icon.png||
@@ -191,7 +191,7 @@ Dragon's Claw|Enum_Item.DragonsClaw|Enum_Item.NegatronCloak|Enum_Item.NegatronCl
 Force of Nature|Enum_Item.ForceofNature|Enum_Item.Spatula|Enum_Item.Spatula|Gain +1 team size.||
 Frozen Heart|Enum_Item.FrozenHeart|Enum_Item.ChainVest|Enum_Item.TearoftheGoddess|Adjacent enemies lose 20% Attack Speed.||
 Frozen Mallet|Enum_Item.FrozenMallet|Enum_Item.GiantsBelt|Enum_Item.Spatula|Wearer is also a Glacial.||
-Guardian Angel|Enum_Item.GuardianAngel|Enum_Item.BFSword|Enum_Item.ChainVest|Wearer revives with 1000 Health after a 2 sec delay.||
+Guardian Angel|Enum_Item.GuardianAngel|Enum_Item.BFSword|Enum_Item.ChainVest|Wearer revives with 800 Health after a 2 sec delay.||
 Guinsoo's Rageblade|Enum_Item.GuinsoosRageblade|Enum_Item.NeedlesslyLargeRod|Enum_Item.RecurveBow|Attacks grant 4% Attack Speed. Stacks infinitely.||
 Hextech Gunblade|Enum_Item.HextechGunblade|Enum_Item.BFSword|Enum_Item.NeedlesslyLargeRod|Heal for 25% of all damage dealt.||
 Hush|Enum_Item.Hush|Enum_Item.NegatronCloak|Enum_Item.TearoftheGoddess|Attacks have a high chance to Silence.||
@@ -200,18 +200,18 @@ Ionic Spark|Enum_Item.IonicSpark|Enum_Item.NeedlesslyLargeRod|Enum_Item.Negatron
 Knight's Vow|Enum_Item.KnightsVow|Enum_Item.Spatula|Enum_Item.ChainVest|Wearer is also a Knight.||
 Locket of the Iron Solari|Enum_Item.LocketoftheIronSolari|Enum_Item.ChainVest|Enum_Item.NeedlesslyLargeRod|On start of combat, allies two spaces to the left and right gain a shield of 250 for 4 seconds.||
 Luden's Echo|Enum_Item.LudensEcho|Enum_Item.TearoftheGoddess|Enum_Item.NeedlesslyLargeRod|Spells deal 200 splash damage on hit.||
-Morellonomicon|Enum_Item.Morellonomicon|Enum_Item.GiantsBelt|Enum_Item.NeedlesslyLargeRod|Spells deal burn damage equal to 5% of the enemy's max HP per second.||
+Morellonomicon|Enum_Item.Morellonomicon|Enum_Item.GiantsBelt|Enum_Item.NeedlesslyLargeRod|Spells burn for 20% of max HP over 5 seconds and disable healing.||
 Phantom Dancer|Enum_Item.PhantomDancer|Enum_Item.ChainVest|Enum_Item.RecurveBow|Wearer dodges all Critical Strikes.||
 Rabadon's Deathcap|Enum_Item.RabadonsDeathcap|Enum_Item.NeedlesslyLargeRod|Enum_Item.NeedlesslyLargeRod|+50% Ability Power.||
 Rapid Firecannon|Enum_Item.RapidFirecannon|Enum_Item.RecurveBow|Enum_Item.RecurveBow|Wearer's attacks cannot be dodged. Attack Range is doubled.||
 Red Buff|Enum_Item.RedBuff|Enum_Item.ChainVest|Enum_Item.GiantsBelt|Attacks deal 2.5% burn damage.||
 Redemption|Enum_Item.Redemption|Enum_Item.GiantsBelt|Enum_Item.TearoftheGoddess|Upon reaching 25% health, heal all nearby allies for 1000 Health.||
-Runaan's Hurricane|Enum_Item.RunaansHurricane|Enum_Item.NegatronCloak|Enum_Item.Spatula|Attacks 1 extra targets on attack. Extra attacks deal 25% damage. Applies on-hit effects.||
+Runaan's Hurricane|Enum_Item.RunaansHurricane|Enum_Item.NegatronCloak|Enum_Item.Spatula|Summons a spirit who mirrors your attacks, dealing 75% damage. Applies on-hit effects.||
 Seraph's Embrace|Enum_Item.SeraphsEmbrace|Enum_Item.TearoftheGoddess|Enum_Item.TearoftheGoddess|Regain 20 mana each time a spell is cast.||
 Spear of Shojin|Enum_Item.SpearofShojin|Enum_Item.BFSword|Enum_Item.TearoftheGoddess|After casting, wearer gains 15% of its max mana per attack.||
 Statikk Shiv|Enum_Item.StatikkShiv|Enum_Item.RecurveBow|Enum_Item.TearoftheGoddess|Every 3rd attack deals 90 splash magical damage to 3 additional targets.||
 Sword Breaker|Enum_Item.SwordBreaker|Enum_Item.NegatronCloak|Enum_Item.ChainVest|Attacks have a chance to disarm.||
-Sword of the Divine|Enum_Item.SwordoftheDivine|Enum_Item.BFSword|Enum_Item.RecurveBow|Each second, the wearer has a 5% chance to gain 100% Critical Strike.||
+Sword of the Divine|Enum_Item.SwordoftheDivine|Enum_Item.BFSword|Enum_Item.RecurveBow|Each second, the wearer has a 7% chance to gain 100% Critical Strike.||
 Thornmail|Enum_Item.Thornmail|Enum_Item.ChainVest|Enum_Item.ChainVest|Reflect 100% of mitigated damage taken from attacks as true damage.||
 Titanic Hydra|Enum_Item.TitanicHydra|Enum_Item.RecurveBow|Enum_Item.GiantsBelt|Attacks deal 10% of the wearer's max Health as splash damage.||
 Warmog's Armor|Enum_Item.WarmogsArmor|Enum_Item.GiantsBelt|Enum_Item.GiantsBelt|Wearer regenerates 6% of missing health per second.||
