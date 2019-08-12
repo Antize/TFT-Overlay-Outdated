@@ -15,6 +15,8 @@
 
 ![Preview](Images/Exemple.png)
 
+![Preview](Images/Exemple5.png)
+
 ## Antize TFT Overlay
 Free Team and item builder tool for League of Legends: Teamfight Tactics.
 
