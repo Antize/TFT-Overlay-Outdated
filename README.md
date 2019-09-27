@@ -37,7 +37,7 @@ If you have an issue, Feedback or you think there is an error in data, just open
 ## How do I get started ?
   -  [Download TFT-Overlay](https://github.com/Antize/TFT-Overlay/releases/)  
   -  Extract files and run `Antize TFT.exe`
-  -  To put Antize TFT Overlay on top of your game, your game must set in Borderless or Windowed.
+  -  To put Antize TFT Overlay on top of your game, your game must be set in Borderless or Windowed.
 
 Inside of package, you must have the following files:
 - **Antize TFT.exe:** Software
