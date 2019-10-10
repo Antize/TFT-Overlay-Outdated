@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <LocalizationVersion>0.03</LocalizationVersion>
+  <LocalizationVersion>0.04</LocalizationVersion>
   <Main_Profile>Profile</Main_Profile>
   <Main_SubProfile>Sub Profile</Main_SubProfile>
   <Main_SelectedProfileToolTip>Left click - sort champion list | Right click - Rename Profile</Main_SelectedProfileToolTip>
@@ -17,8 +17,8 @@
   <Main_ItemResetProfile>Reset selected profile</Main_ItemResetProfile>
   <Main_ItemShowHideShow>Show</Main_ItemShowHideShow>
   <Main_ItemShowHideHide>Hide</Main_ItemShowHideHide>
-  <Main_ItemAutoUpdateOn>Auto update: On</Main_ItemAutoUpdateOn>
-  <Main_ItemAutoUpdateOff>Auto update: Off</Main_ItemAutoUpdateOff>
+  <Main_ItemAutoUpdateOn>Check for Updates: On</Main_ItemAutoUpdateOn>
+  <Main_ItemAutoUpdateOff>Check for Updates: Off</Main_ItemAutoUpdateOff>
   <Main_ItemShowErrorsOn>Show errors: On</Main_ItemShowErrorsOn>
   <Main_ItemShowErrorsOff>Show errors: Off</Main_ItemShowErrorsOff>
   <Main_ItemOption>Options</Main_ItemOption>
@@ -33,4 +33,6 @@
   <SlotItem_IconToolTip>Right click - Item Builder Sheet</SlotItem_IconToolTip>
   <Placement_Placement>Selected :  </Placement_Placement>
   <Placement_Reset>Reset</Placement_Reset>
+  <AutoShowHideOn>Auto Show/Hide: On</AutoShowHideOn>
+  <AutoShowHideOff>Auto Show/Hide: Off</AutoShowHideOff>
 </Localization>

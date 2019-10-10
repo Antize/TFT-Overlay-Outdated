@@ -9,6 +9,8 @@
   <EnableCheckForUpdate>true</EnableCheckForUpdate>
   <ShowErrors>false</ShowErrors>
   <PositionLeft>true</PositionLeft>
-  <OpacityOut>0.1</OpacityOut>
-  <OpacityIn>0.2</OpacityIn>
+  <OpacityOut>0.5</OpacityOut>
+  <OpacityIn>0.9</OpacityIn>
+  <AppName>League of Legends</AppName>
+  <AutoShowHide>true</AutoShowHide>
 </UserSettings>
