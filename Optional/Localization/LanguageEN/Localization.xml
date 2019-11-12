@@ -35,4 +35,6 @@
   <Placement_Reset>Reset</Placement_Reset>
   <AutoShowHideOn>Auto Show/Hide: On</AutoShowHideOn>
   <AutoShowHideOff>Auto Show/Hide: Off</AutoShowHideOff>
+  <NoteOn>Note: On</NoteOn>
+  <NoteOff>Note: Off</NoteOff>
 </Localization>
