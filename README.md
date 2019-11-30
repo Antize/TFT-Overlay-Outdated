@@ -41,6 +41,7 @@ If you have an issue, Feedback or you think there is an error in data, just open
 
 Inside of package, you must have the following files:
 - **Antize TFT.exe:** Software
+- **WindowsInput.dll:** Dependance Software
 - **MyProfile.xml:** Default profile (Only for reset / See default settings)
 - **UserItems.xml:** Default items for champions
 - **Localization.xml:** Translate interface
