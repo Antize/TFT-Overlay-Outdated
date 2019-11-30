@@ -8,6 +8,11 @@
   <UpdateFindEnd>)</UpdateFindEnd>
   <EnableCheckForUpdate>true</EnableCheckForUpdate>
   <ShowErrors>false</ShowErrors>
+  <BaseKey>LeftCtrl</BaseKey>
+  <ShowHideKey>w</ShowHideKey>
+  <ChampionKey>x</ChampionKey>
+  <ItemKey>c</ItemKey>
+  <ItemCombineKey>v</ItemCombineKey>
   <PositionLeft>true</PositionLeft>
   <OpacityOut>0.5</OpacityOut>
   <OpacityIn>0.9</OpacityIn>

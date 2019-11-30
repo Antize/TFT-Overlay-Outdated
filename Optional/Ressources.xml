@@ -4,12 +4,10 @@ Note for me
 ||
 
 
-\n    
+
+||\n    
 
 Supprimer les derniers ||
-
-
-
 
 
 <options>
@@ -70,18 +68,18 @@ Supprimer les derniers ||
 3|Veigar|600 / 1080 / 2160|30 / 54 / 108|Enum_Classe.Shadow|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Veigar.png|false|Images/Icon.png||
 3|Soraka|600 / 1080 / 2160|26 / 47 / 94|Enum_Classe.Light|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Soraka.png|false|Images/Icon.png||
 4|Annie|700 / 1260 / 2520|31 / 57 / 113|Enum_Classe.Inferno|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Annie.png|false|Images/Icon.png||
-4|Ashe Sol|550 / 990 / 1980|42 / 76 / 151|Enum_Classe.Crystal|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ashe.png|false|Images/Icon.png||
+4|Ashe Sol|550 / 990 / 1980|48 / 86 / 173|Enum_Classe.Crystal|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ashe.png|false|Images/Icon.png||
 4|Brand|700 / 1260 / 2520|39 / 69 / 139|Enum_Classe.Inferno|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Brand.png|false|Images/Icon.png||
 4|Janna|600 / 1080 / 2160|31 / 57 / 113|Enum_Classe.Cloud|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Janna.png|false|Images/Icon.png||
 4|Khazix|750 / 1350 / 2700|60 / 108 / 216|Enum_Classe.Desert|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Khazix.png|false|Images/Icon.png||
-4|Malphite|800 / 1440 / 2880|33 / 59 / 119|Enum_Classe.Mountain|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Malphite.png|false|Images/Icon.png||
+4|Malphite|850 / 1530 / 3060|33 / 59 / 119|Enum_Classe.Mountain|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Malphite.png|false|Images/Icon.png||
 4|Olaf|750 / 1350 / 2700|60 / 107 / 214|Enum_Classe.Glacial|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Olaf.png|false|Images/Icon.png||
 4|Twitch|650 / 1170 / 2340|45 / 81 / 162|Enum_Classe.Poison|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Twitch.png|false|Images/Icon.png||
 4|Yorick|800 / 1440 / 2880|46 / 82 / 164|Enum_Classe.Light|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Yorick.png|false|Images/Icon.png||
 5|Master Yi|850 / 1530 / 3060|70 / 126 / 252|Enum_Classe.Shadow|Enum_Classe.Blademaster|Enum_Classe.Mystic|/Antize TFT;component/Ressources/Champions/MasterYi.png|false|Images/Icon.png||
 5|Nami|750 / 1350 / 2700|38 / 68 / 135|Enum_Classe.Ocean|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nami.png|false|Images/Icon.png||
-5|Singed|1050 / 1890 / 3780|0 / 0 / 0|Enum_Classe.Poison|Enum_Classe.Alchemist|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Singed.png|false|Images/Icon.png||
-5|Taric|850 / 1530 / 3060|39 / 70 / 140|Enum_Classe.Crystal|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Taric.png|false|Images/Icon.png||
+5|Singed|950 / 1710 / 3420|0 / 0 / 0|Enum_Classe.Poison|Enum_Classe.Alchemist|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Singed.png|false|Images/Icon.png||
+5|Taric|900 / 1620 / 3240|39 / 70 / 140|Enum_Classe.Crystal|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Taric.png|false|Images/Icon.png||
 5|Zed|850 / 1530 / 3060|80 / 144 / 288|Enum_Classe.Electric|Enum_Classe.Assassin|Enum_Classe.Summoner|/Antize TFT;component/Ressources/Champions/Zed.png|false|Images/Icon.png||
 7|Lux|850 / 1530 / 3060|55 / 99 / 199|Enum_Classe.None|Enum_Classe.Avatar|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Lux.png|false|Images/Icon.png
 "/>
@@ -98,18 +96,18 @@ Enum_Classe.Mystic|True|All allies gain increased Magic Resistance.|2|40 Magic R
 Enum_Classe.Predator|True| |3|Predators instantly kill enemies they damage who are below 25% health.|-1| |-2| ||
 Enum_Classe.Ranger|True|Every 3 seconds, Rangers have a chance to double their Attack Speed for 3 seconds.|2|30% Chance to Double Attack Speed|4|60% Chance to Double Attack Speed|6|00% Chance to Double Attack Speed||
 Enum_Classe.Summoner|True|Summoned units have increased health and duration.|3|+40% increase|6|+100% increase|-2| ||
-Enum_Classe.Warden|True|Wardens gain increased total Armor.|2|+125% Armorh|4|+275% Armor|6|+450% Armor||
+Enum_Classe.Warden|True|Wardens gain increased total Armor.|2|+150% Armorh|4|+300% Armor|6|+450% Armor||
 Enum_Classe.Cloud|False|All allies gain dodge chance.|2|+15% Dodge Chance|3|+20% Dodge Chance|4|+30% Dodge Chance||
 Enum_Classe.Crystal|False|Crystal champions have a maximum amount of damage they can take from a single hit.|2|100 Max Damage|4|60 Max Damage|-2| ||
 Enum_Classe.Desert|False|Reduces each enemy's armor.|2|50% Armor Reduction|4|90% Armor Reduction|-2| ||
 Enum_Classe.Electric|False|Electric champions shock nearby enemies whenever they deal or receive a critical strike.|2|70 Damage|3|250 Damage|4|500 Damage||
-Enum_Classe.Glacial|False|Basic Attacks from Glacials have a chance to stun their target for 1.5 seconds.|2|20% Chance to Stun|4|40% Chance to Stun|6|60% Chance to Stun||
+Enum_Classe.Glacial|False|Basic Attacks from Glacials have a chance to stun their target for 1.5 seconds.|2|20% Chance to Stun|4|35% Chance to Stun|6|50% Chance to Stun||
 Enum_Classe.Inferno|False|Inferno spell damage burns the ground beneath the target, dealing a percent of that spell's pre-mitigation damage as magic damage over 5 seconds.|3|+80% Damage|6|+175% Damage|9|+275% Damage||
-Enum_Classe.Light|False|When a Light champion dies, all other Light champions gain Attack Speed and are healed for 25% of their Maximum Health.|3|+10% Attack Speed|6|+20% Attack Speed|9|+35% Attack Speed||
+Enum_Classe.Light|False|When a Light champion dies, all other Light champions gain Attack Speed and are healed for 25% of the champion's Maximum Health.|3|+10% Attack Speed|6|+20% Attack Speed|9|+35% Attack Speed||
 Enum_Classe.Mountain|False| |2|At the start of combat, a random ally gains a 1500 Stoneshield.|-1| |-2| ||
-Enum_Classe.Ocean|False|All allies restore mana every 4 seconds.|2|+15 Mana|4|+30 Mana|6|+50 Mana||
+Enum_Classe.Ocean|False|All allies restore mana every 4 seconds.|2|+15 Mana|4|+35 Mana|6|+60 Mana||
 Enum_Classe.Poison|False| |3|Poison champions apply Neurotoxin when they deal damage, increasing the target's mana cost by 50%.|-1| |-2| ||
-Enum_Classe.Shadow|False|Shadow units deal increased damage for 5 seconds at combat start, refreshed on takedown.|2|+50% Increased Damage, Self Takedown|4|+100% Increased Damage, Any Shadow Takedown|-2| ||
+Enum_Classe.Shadow|False|Shadow units deal increased damage for 5 seconds at combat start, refreshed on takedown.|2|+45% Increased Damage, Self Takedown|4|+85% Increased Damage, Any Shadow Takedown|-2| ||
 Enum_Classe.Steel|False|Steel champions gain damage immunity for a few seconds when they are reduced below 50% health.|2|2 Seconds of Immunity|3|3 Seconds of Immunity.|4|4 Seconds of Immunity||
 Enum_Classe.Variable|False| |1|Origin is determined by the Element of the current match. It can be Cloud, Inferno, Ocean, or Mountain.|-1| |-2| ||
 Enum_Classe.Woodland|False| |3|At the start of combat, a random Woodland champion makes a copy of themselves.|-1| |-2| 
@@ -131,18 +129,18 @@ Bloodthirster|Enum_Item.Bloodthirster|Enum_Item.BFSword|Enum_Item.NegatronCloak|
 Deathblade|Enum_Item.Deathblade|Enum_Item.BFSword|Enum_Item.BFSword|Whenever the wearer kills or participates in killing an enemy, gain +15 Attack Damage for the remainder of combat. This effect can stack any number of times.||
 Dragon's Claw|Enum_Item.DragonsClaw|Enum_Item.NegatronCloak|Enum_Item.NegatronCloak|Wearer gains 50% resistance to magic damage.||
 Force of Nature|Enum_Item.ForceofNature|Enum_Item.Spatula|Enum_Item.Spatula|Gain +1 team size.||
-Frozen Heart|Enum_Item.FrozenHeart|Enum_Item.ChainVest|Enum_Item.TearoftheGoddess|Reduce the Attack Speed of adjacent enemies by 35% for 1 second.||
+Frozen Heart|Enum_Item.FrozenHeart|Enum_Item.ChainVest|Enum_Item.TearoftheGoddess|Reduce the Attack Speed of adjacent enemies by 25% for 1 second.||
 Frozen Mallet|Enum_Item.FrozenMallet|Enum_Item.GiantsBelt|Enum_Item.Spatula|Wearer is also a Glacial.||
 Giant Slayer|Enum_Item.GiantSlayer|Enum_Item.BFSword|Enum_Item.RecurveBow|The wearer's basic attacks deal an additional 5% of the target's Maximum Health as true damage.||
 Guardian Angel|Enum_Item.GuardianAngel|Enum_Item.BFSword|Enum_Item.ChainVest|When the wearer dies, they cleanse negative effects and revive with up to 500 Health after a 2 second delay. This effect can trigger once per combat.||
 Guinsoo's Rageblade|Enum_Item.GuinsoosRageblade|Enum_Item.NeedlesslyLargeRod|Enum_Item.RecurveBow|Attacks grant 4% Attack Speed. Stacks infinitely.||
 Hand of Justice|Enum_Item.HandofJustice|Enum_Item.TearoftheGoddess|Enum_Item.SparringGloves|At the beginning of each planning phase, the wearer gains one of the following: Basic Attacks and Spells deal +50% Damage or Basic Attacks heal 50 Health on-hit.||
 Hextech Gunblade|Enum_Item.HextechGunblade|Enum_Item.BFSword|Enum_Item.NeedlesslyLargeRod|Basic Attacks and spells heal the wearer for 25% of the damage dealt.||
-Hush|Enum_Item.Hush|Enum_Item.NegatronCloak|Enum_Item.TearoftheGoddess|Basic Attacks have a 33% chance to silence the target on-hit, prevent the enemy from gaining mana for 4 seconds.||
+Hush|Enum_Item.Hush|Enum_Item.NegatronCloak|Enum_Item.TearoftheGoddess|Basic Attacks have a 23% chance to silence the target on-hit, prevent the enemy from gaining mana for 4 seconds.||
 Iceborne Gauntlet|Enum_Item.IceborneGauntlet|Enum_Item.ChainVest|Enum_Item.SparringGloves|When the wearer dodges, they create a zone of ice. Enemies inside the zone have their Attack Speed reduced by 35%.||
 Inferno Cinder|Enum_Item.InfernoCinder|Enum_Item.Spatula|Enum_Item.NeedlesslyLargeRod|Wearer is also an Inferno.||
 Infinity Edge|Enum_Item.InfinityEdge|Enum_Item.BFSword|Enum_Item.SparringGloves|The wearer gains +125% Critical Strike Damage.||
-Ionic Spark|Enum_Item.IonicSpark|Enum_Item.NeedlesslyLargeRod|Enum_Item.NegatronCloak|Whenever an enemy casts a spell, the wearer deals 125 true damage to the caster.||
+Ionic Spark|Enum_Item.IonicSpark|Enum_Item.NeedlesslyLargeRod|Enum_Item.NegatronCloak|Whenever an enemy casts a spell, the wearer deals 90 true damage to the caster.||
 Jeweled Gauntlet|Enum_Item.JeweledGauntlet|Enum_Item.NeedlesslyLargeRod|Enum_Item.SparringGloves|The wearer's spells can critically strike.||
 Locket of the Iron Solari|Enum_Item.LocketoftheIronSolari|Enum_Item.ChainVest|Enum_Item.NeedlesslyLargeRod|When combat begins, the wearer and all allies within 2 hexes in the same row gain a shield that blocks 300 damage for 8 seconds.||
 Luden's Echo|Enum_Item.LudensEcho|Enum_Item.TearoftheGoddess|Enum_Item.NeedlesslyLargeRod|When the wearer deals damage with their spell, the first target hit and up to 3 nearby enemies are dealt an additional 180 magic damage.||
