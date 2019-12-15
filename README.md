@@ -2,7 +2,7 @@
 # TFT Overlay by Antize
 
 ## Last Version
-**Antize TFT (Ver.1.53)**
+**Antize TFT (Ver.1.54)**
 
 ## Preview
 ![Preview](Images/Exemple1.png)
