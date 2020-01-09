@@ -2,12 +2,10 @@
 <!-- 
 Note for me
 ||
- 
-
-
+  
 
 ||
- \n    
+  \n    
 
 Supprimer les derniers ||
  
@@ -17,9 +15,13 @@ Supprimer les derniers ||
 <option key="Champions" value="
 
 
+
+
 "/>
 
 <option key="ClasseOrigin" value="
+
+
 
 
 "/>
@@ -33,146 +35,149 @@ Supprimer les derniers ||
 }-->
 <options>
 <option key="Champions" value="
-1|Diana|550 / 990 / 1980|35 / 63 / 126|Enum_Classe.Inferno|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Diana.png|false|Images/Icon.png||
- 1|Ivern|600 / 1080 / 2160|30 / 54 / 108|Enum_Classe.Woodland|Enum_Classe.Druid|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ivern.png|false|Images/Icon.png||
- 1|KogMaw|500 / 900 / 1800|18 / 32 / 63|Enum_Classe.Poison|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/KogMaw.png|false|Images/Icon.png||
- 1|Maokai|650 / 1170 / 2340|28 / 50 / 99|Enum_Classe.Woodland|Enum_Classe.Druid|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Maokai.png|false|Images/Icon.png||
- 1|Nasus|650 / 1170 / 2340|28 / 50 / 99|Enum_Classe.Light|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nasus.png|false|Images/Icon.png||
- 1|Ornn|650 / 1170 / 2340|28 / 50 / 99|Enum_Classe.Electric|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ornn.png|false|Images/Icon.png||
- 1|Renekton|600 / 1080 / 2160|36 / 65 / 130|Enum_Classe.Desert|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Renekton.png|false|Images/Icon.png||
- 1|Taliyah|500 / 900 / 1800|26 / 47 / 94|Enum_Classe.Mountain|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Taliyah.png|false|Images/Icon.png||
- 1|Vladimir|550 / 990 / 1980|26 / 47 / 94|Enum_Classe.Ocean|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Vladimir.png|false|Images/Icon.png||
- 1|Zyra|500 / 900 / 1800|16 / 29 / 59|Enum_Classe.Inferno|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Zyra.png|false|Images/Icon.png||
- 1|Vayne|500 / 900 / 1800|30 / 54 / 108|Enum_Classe.Light|Enum_Classe.Ranger|Enum_Classe.None| /Antize TFT;component/Ressources/Champions/Vayne.png|false|Images/Icon.png||
- 1|Warwick|650 / 1170 / 2340|30 / 54 / 108|Enum_Classe.Glacial|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Warwick.png|false|Images/Icon.png||
- 2|Jax|650 / 1170 / 2340|40 / 72 / 144|Enum_Classe.Light|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Jax.png|false|Images/Icon.png||
- 2|LeBlanc|550 / 990 / 1980|39 / 69 / 139|Enum_Classe.Woodland|Enum_Classe.Assassin|Enum_Classe.Mage|/Antize TFT;component/Ressources/Champions/LeBlanc.png|false|Images/Icon.png||
- 2|Braum|750 / 1350 / 2700|24 / 43 / 86|Enum_Classe.Glacial|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Braum.png|false|Images/Icon.png||
- 2|Malzahar|550 / 990 / 1980|26 / 47 / 94|Enum_Classe.Shadow|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Malzahar.png|false|Images/Icon.png||
- 2|Neeko|500 / 900 / 1800|31 / 57 / 113|Enum_Classe.Woodland|Enum_Classe.Druid|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Neeko.png|false|Images/Icon.png||
- 2|Skarner|650 / 1170 / 2340|39 / 70 / 140|Enum_Classe.Crystal|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Skarner.png|false|Images/Icon.png||
- 2|Syndra|500 / 900 / 1800|28 / 50 / 101|Enum_Classe.Ocean|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Syndra.png|false|Images/Icon.png||
- 2|RekSai|650 / 1170 / 2340|46 / 82 / 164|Enum_Classe.Steel|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/RekSai.png|false|Images/Icon.png||
- 2|Thresh|700 / 1260 / 2520|30 / 54 / 109|Enum_Classe.Ocean|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Thresh.png|false|Images/Icon.png||
- 2|Volibear|850 / 1530 / 3060|42 / 76 / 151|Enum_Classe.Electric|Enum_Classe.Glacial|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Volibear.png|false|Images/Icon.png||
- 2|Varus|550 / 990 / 1980|35 / 63 / 126|Enum_Classe.Inferno|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Varus.png|false|Images/Icon.png||
- 2|Yasuo|600 / 1080 / 2160|42 / 76 / 151|Enum_Classe.Cloud|Enum_Classe.Blademaster|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Yasuo.png|false|Images/Icon.png||
- 3|Aatrox|700 / 1260 / 2520|42 / 76 / 152|Enum_Classe.Light|Enum_Classe.Blademaster|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Aatrox.png|false|Images/Icon.png||
- 3|Azir|600 / 1080 / 2160|44 / 79 / 158|Enum_Classe.Desert|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Azir.png|false|Images/Icon.png||
- 3|Dr Mundo|750 / 1350 / 2700|36 / 65 / 130|Enum_Classe.Poison|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/DrMundo.png|false|Images/Icon.png||
- 3|Ezreal|600 / 1080 / 2160|46 / 82 / 164|Enum_Classe.Glacial|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ezreal.png|false|Images/Icon.png||
- 3|Kindred|650 / 1170 / 2340|55 / 99 / 198|Enum_Classe.Inferno|Enum_Classe.Shadow|Enum_Classe.Ranger|/Antize TFT;component/Ressources/Champions/Kindred.png|false|Images/Icon.png||
- 3|Nautilus|850 / 1530 / 3060|33 / 59 / 119|Enum_Classe.Ocean|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nautilus.png|false|Images/Icon.png||
- 3|Nocturne|650 / 1170 / 2340|45 / 81 / 162|Enum_Classe.Steel|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nocturne.png|false|Images/Icon.png||
- 3|Qiyana|650 / 1170 / 2340|46 / 82 / 164|Enum_Classe.Variable|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Qiyana.png|false|Images/Icon.png||
- 3|Sion|850 / 1530 / 3060|42 / 76 / 152|Enum_Classe.Shadow|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Sion.png|false|Images/Icon.png||
- 3|Sivir|600 / 1080 / 2160|39 / 69 / 139|Enum_Classe.Desert|Enum_Classe.Blademaster|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Sivir.png|false|Images/Icon.png||
- 3|Veigar|600 / 1080 / 2160|30 / 54 / 108|Enum_Classe.Shadow|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Veigar.png|false|Images/Icon.png||
- 3|Soraka|600 / 1080 / 2160|28 / 50 / 101|Enum_Classe.Light|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Soraka.png|false|Images/Icon.png||
- 4|Annie|700 / 1260 / 2520|31 / 57 / 113|Enum_Classe.Inferno|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Annie.png|false|Images/Icon.png||
- 4|Ashe Sol|550 / 990 / 1980|48 / 86 / 173|Enum_Classe.Crystal|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ashe.png|false|Images/Icon.png||
- 4|Brand|700 / 1260 / 2520|39 / 69 / 139|Enum_Classe.Inferno|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Brand.png|false|Images/Icon.png||
- 4|Janna|600 / 1080 / 2160|31 / 57 / 113|Enum_Classe.Cloud|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Janna.png|false|Images/Icon.png||
- 4|Khazix|750 / 1350 / 2700|60 / 108 / 216|Enum_Classe.Desert|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Khazix.png|false|Images/Icon.png||
- 4|Malphite|850 / 1530 / 3060|33 / 59 / 119|Enum_Classe.Mountain|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Malphite.png|false|Images/Icon.png||
- 4|Olaf|750 / 1350 / 2700|60 / 107 / 214|Enum_Classe.Glacial|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Olaf.png|false|Images/Icon.png||
- 4|Twitch|650 / 1170 / 2340|45 / 81 / 162|Enum_Classe.Poison|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Twitch.png|false|Images/Icon.png||
- 4|Yorick|800 / 1440 / 2880|46 / 82 / 164|Enum_Classe.Light|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Yorick.png|false|Images/Icon.png||
- 5|Master Yi|850 / 1530 / 3060|70 / 126 / 252|Enum_Classe.Shadow|Enum_Classe.Blademaster|Enum_Classe.Mystic|/Antize TFT;component/Ressources/Champions/MasterYi.png|false|Images/Icon.png||
- 5|Nami|750 / 1350 / 2700|38 / 68 / 135|Enum_Classe.Ocean|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nami.png|false|Images/Icon.png||
- 5|Singed|950 / 1710 / 3420|0 / 0 / 0|Enum_Classe.Poison|Enum_Classe.Alchemist|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Singed.png|false|Images/Icon.png||
- 5|Taric|900 / 1620 / 3240|39 / 70 / 140|Enum_Classe.Crystal|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Taric.png|false|Images/Icon.png||
- 5|Zed|850 / 1530 / 3060|80 / 144 / 288|Enum_Classe.Electric|Enum_Classe.Assassin|Enum_Classe.Summoner|/Antize TFT;component/Ressources/Champions/Zed.png|false|Images/Icon.png||
- 7|Lux|850 / 1530 / 3060|55 / 99 / 199|Enum_Classe.None|Enum_Classe.Avatar|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Lux.png|false|Images/Icon.png||
- 2|Senna|450 / 810 / 1620|31 / 57 / 113|Enum_Classe.Shadow|Enum_Classe.Soulbound|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Senna.png|false|Images/Icon.png||
- 2|Lucian|550 / 990 / 1980|52 / 94 / 187|Enum_Classe.Light|Enum_Classe.Soulbound|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Lucian.png|false|Images/Icon.png||
- 2|Amumu|900 / 1620 / 3240|41 / 74 / 149|Enum_Classe.Inferno|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Amumu.png|false|Images/Icon.png
+  1|Diana|550 / 990 / 1782|35 / 63 / 126|Enum_Classe.Inferno|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Diana.png|false|Images/Icon.png||
+  1|Ivern|600 / 1080 / 1944|30 / 54 / 108|Enum_Classe.Woodland|Enum_Classe.Druid|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ivern.png|false|Images/Icon.png||
+  1|KogMaw|500 / 900 / 1620|18 / 32 / 63|Enum_Classe.Poison|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/KogMaw.png|false|Images/Icon.png||
+  1|Maokai|650 / 1170 / 2106|28 / 50 / 99|Enum_Classe.Woodland|Enum_Classe.Druid|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Maokai.png|false|Images/Icon.png||
+  1|Nasus|650 / 1170 / 2106|28 / 50 / 99|Enum_Classe.Light|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nasus.png|false|Images/Icon.png||
+  1|Ornn|650 / 1170 / 2106|28 / 50 / 99|Enum_Classe.Electric|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ornn.png|false|Images/Icon.png||
+  1|Renekton|600 / 1080 / 1944|36 / 65 / 130|Enum_Classe.Desert|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Renekton.png|false|Images/Icon.png||
+  1|Taliyah|500 / 900 / 1620|26 / 47 / 94|Enum_Classe.Mountain|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Taliyah.png|false|Images/Icon.png||
+  1|Vladimir|550 / 990 / 1782|26 / 47 / 94|Enum_Classe.Ocean|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Vladimir.png|false|Images/Icon.png||
+  1|Zyra|500 / 900 / 1620|16 / 29 / 59|Enum_Classe.Inferno|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Zyra.png|false|Images/Icon.png||
+  1|Vayne|550 / 990 / 1782|30 / 54 / 108|Enum_Classe.Light|Enum_Classe.Ranger|Enum_Classe.None| /Antize TFT;component/Ressources/Champions/Vayne.png|false|Images/Icon.png||
+  1|Warwick|650 / 1170 / 2106|30 / 54 / 108|Enum_Classe.Glacial|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Warwick.png|false|Images/Icon.png||
+  2|Jax|700 / 1260 / 2268|44 / 79 / 158|Enum_Classe.Light|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Jax.png|false|Images/Icon.png||
+  2|LeBlanc|550 / 990 / 1782|39 / 69 / 139|Enum_Classe.Woodland|Enum_Classe.Assassin|Enum_Classe.Mage|/Antize TFT;component/Ressources/Champions/LeBlanc.png|false|Images/Icon.png||
+  2|Braum|750 / 1350 / 2430|24 / 43 / 86|Enum_Classe.Glacial|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Braum.png|false|Images/Icon.png||
+  2|Malzahar|550 / 990 / 1782|26 / 47 / 94|Enum_Classe.Shadow|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Malzahar.png|false|Images/Icon.png||
+  2|Neeko|500 / 900 / 1620|31 / 57 / 113|Enum_Classe.Woodland|Enum_Classe.Druid|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Neeko.png|false|Images/Icon.png||
+  2|Skarner|650 / 1170 / 2106|39 / 70 / 140|Enum_Classe.Crystal|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Skarner.png|false|Images/Icon.png||
+  2|Syndra|500 / 900 / 1620|28 / 50 / 101|Enum_Classe.Ocean|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Syndra.png|false|Images/Icon.png||
+  2|RekSai|650 / 1170 / 2106|42 / 76 / 151|Enum_Classe.Steel|Enum_Classe.Predator|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/RekSai.png|false|Images/Icon.png||
+  2|Thresh|700 / 1260 / 2268|30 / 54 / 109|Enum_Classe.Ocean|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Thresh.png|false|Images/Icon.png||
+  2|Volibear|850 / 1530 / 2754|42 / 76 / 151|Enum_Classe.Electric|Enum_Classe.Glacial|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Volibear.png|false|Images/Icon.png||
+  2|Varus|550 / 990 / 1782|35 / 63 / 126|Enum_Classe.Inferno|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Varus.png|false|Images/Icon.png||
+  2|Yasuo|600 / 1080 / 1944|42 / 76 / 151|Enum_Classe.Cloud|Enum_Classe.Blademaster|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Yasuo.png|false|Images/Icon.png||
+  3|Aatrox|800 / 1440 / 2592|42 / 76 / 152|Enum_Classe.Light|Enum_Classe.Blademaster|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Aatrox.png|false|Images/Icon.png||
+  3|Azir|600 / 1080 / 1944|44 / 79 / 158|Enum_Classe.Desert|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Azir.png|false|Images/Icon.png||
+  3|Dr Mundo|750 / 1350 / 2430|36 / 65 / 130|Enum_Classe.Poison|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/DrMundo.png|false|Images/Icon.png||
+  3|Ezreal|600 / 1080 / 1944|41 / 74 / 149|Enum_Classe.Glacial|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ezreal.png|false|Images/Icon.png||
+  3|Kindred|650 / 1170 / 2106|55 / 99 / 198|Enum_Classe.Inferno|Enum_Classe.Shadow|Enum_Classe.Ranger|/Antize TFT;component/Ressources/Champions/Kindred.png|false|Images/Icon.png||
+  3|Nautilus|850 / 1530 / 2754|33 / 59 / 119|Enum_Classe.Ocean|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nautilus.png|false|Images/Icon.png||
+  3|Nocturne|650 / 1170 / 2106|39 / 69 / 139|Enum_Classe.Steel|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nocturne.png|false|Images/Icon.png||
+  3|Qiyana|650 / 1170 / 2106|46 / 82 / 164|Enum_Classe.Variable|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Qiyana.png|false|Images/Icon.png||
+  3|Sion|850 / 1530 / 2754|42 / 76 / 152|Enum_Classe.Shadow|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Sion.png|false|Images/Icon.png||
+  3|Sivir|600 / 1080 / 1944|39 / 69 / 139|Enum_Classe.Desert|Enum_Classe.Blademaster|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Sivir.png|false|Images/Icon.png||
+  3|Veigar|600 / 1080 / 1944|30 / 54 / 108|Enum_Classe.Shadow|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Veigar.png|false|Images/Icon.png||
+  3|Soraka|600 / 1080 / 1944|28 / 50 / 101|Enum_Classe.Light|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Soraka.png|false|Images/Icon.png||
+  4|Annie|700 / 1260 / 2268|31 / 57 / 113|Enum_Classe.Inferno|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Annie.png|false|Images/Icon.png||
+  4|Ashe|550 / 990 / 1782|48 / 86 / 173|Enum_Classe.Crystal|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Ashe.png|false|Images/Icon.png||
+  4|Brand|700 / 1260 / 2268|39 / 69 / 139|Enum_Classe.Inferno|Enum_Classe.Mage|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Brand.png|false|Images/Icon.png||
+  4|Janna|600 / 1080 / 1944|31 / 57 / 113|Enum_Classe.Cloud|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Janna.png|false|Images/Icon.png||
+  4|Khazix|750 / 1350 / 2430|60 / 108 / 216|Enum_Classe.Desert|Enum_Classe.Assassin|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Khazix.png|false|Images/Icon.png||
+  4|Malphite|850 / 1530 / 2754|33 / 59 / 119|Enum_Classe.Mountain|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Malphite.png|false|Images/Icon.png||
+  4|Olaf|750 / 1350 / 2430|60 / 107 / 214|Enum_Classe.Glacial|Enum_Classe.Berserker|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Olaf.png|false|Images/Icon.png||
+  4|Twitch|650 / 1170 / 2106|49 / 88 / 176|Enum_Classe.Poison|Enum_Classe.Ranger|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Twitch.png|false|Images/Icon.png||
+  4|Yorick|800 / 1440 / 2592|46 / 82 / 164|Enum_Classe.Light|Enum_Classe.Summoner|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Yorick.png|false|Images/Icon.png||
+  5|Master Yi|850 / 1530 / 2754|70 / 126 / 252|Enum_Classe.Shadow|Enum_Classe.Blademaster|Enum_Classe.Mystic|/Antize TFT;component/Ressources/Champions/MasterYi.png|false|Images/Icon.png||
+  5|Nami|750 / 1350 / 2430|38 / 68 / 135|Enum_Classe.Ocean|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Nami.png|false|Images/Icon.png||
+  5|Singed|950 / 1710 / 3078|0 / 0 / 0|Enum_Classe.Poison|Enum_Classe.Alchemist|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Singed.png|false|Images/Icon.png||
+  5|Taric|900 / 1620 / 2916|39 / 70 / 140|Enum_Classe.Crystal|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Taric.png|false|Images/Icon.png||
+  5|Zed|850 / 1530 / 2754|70 / 126 / 252|Enum_Classe.Electric|Enum_Classe.Assassin|Enum_Classe.Summoner|/Antize TFT;component/Ressources/Champions/Zed.png|false|Images/Icon.png||
+  7|Lux|850 / 1530 / 2754|55 / 99 / 199|Enum_Classe.None|Enum_Classe.Avatar|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Lux.png|false|Images/Icon.png||
+  2|Senna|450 / 810 / 1458|31 / 57 / 113|Enum_Classe.Shadow|Enum_Classe.Soulbound|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Senna.png|false|Images/Icon.png||
+  2|Lucian|550 / 990 / 1782|52 / 94 / 187|Enum_Classe.Light|Enum_Classe.Soulbound|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Lucian.png|false|Images/Icon.png||
+  2|Amumu|900 / 1620 / 2916|41 / 74 / 149|Enum_Classe.Inferno|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Amumu.png|false|Images/Icon.png||
+  2|Leona|650 / 1170 / 2106|28 / 50 / 99|Enum_Classe.Lunar|Enum_Classe.Warden|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Leona.png|false|Images/Icon.png||
+  2|Karma|600 / 1080 / 1944|35 / 63 / 126|Enum_Classe.Lunar|Enum_Classe.Mystic|Enum_Classe.None|/Antize TFT;component/Ressources/Champions/Karma.png|false|Images/Icon.png
 "/>
 
 <option key="ClasseOrigin" value="
-Enum_Classe.Alchemist|True| |1|Innate: Alchemists ignore collision and never stop moving.|-1| |-2| ||
- Enum_Classe.Assassin|True|Innate: At the start of combat, Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage and Chance.|3|+75% Critical Strike Damage &amp; 10% Critical Strike Chance|6|+150% Critical Strike Damage &amp; 20% Critical Strike Chance|-2| ||
- Enum_Classe.Avatar|True| |1|An Avatar's Origin Element is counted twice for Trait bonuses.|-1| |-2| ||
- Enum_Classe.Berserker|True|Innate: At the start of combat, Berserkers leap to the nearest enemy. Berserkers have a 40% chance to hit all units in a cone in front of them with their attacks.|3|40% Chance|6|100% Chance &amp; +25 Attack Damage|-2| ||
- Enum_Classe.Blademaster|True|Blademaster Basic Attacks have a 40% chance to trigger additional attacks against their target.|2|One Extra Attacks|4|Two Extra Attacks|6|Three Extra Attacks||
- Enum_Classe.Druid|True| |2|Druids regenerate 40 health each second.|-1| |-2| ||
- Enum_Classe.Mage|True|Mages have a chance on cast to instead Doublecast.|3|50% Chancer|6|100% Chance|-2| ||
- Enum_Classe.Mystic|True|All allies gain increased Magic Resistance.|2|40 Magic Resistance|4|120 Magic Resistance|-2| ||
- Enum_Classe.Predator|True| |3|Predators instantly kill enemies they damage who are below 25% health.|-1| |-2| ||
- Enum_Classe.Ranger|True|Every 3 seconds, Rangers have a chance to double their Attack Speed for 3 seconds.|2|35% Chance to Double Attack Speed|4|80% Chance to Double Attack Speed|6|100% Chance to gain x2.5 Attack Speed||
- Enum_Classe.Summoner|True|Summoned units have increased health and duration.|3|+30% increase|6|+120% increase|-2| ||
- Enum_Classe.Warden|True|Wardens gain increased total Armor.|2|+150% Armorh|4|+300% Armor|6|+450% Armor||
- Enum_Classe.Cloud|False|All allies gain dodge chance.|2|+20% Dodge Chance|3|+25% Dodge Chance|4|+35% Dodge Chance||
- Enum_Classe.Crystal|False|Crystal champions have a maximum amount of damage they can take from a single hit.|2|100 Max Damage|4|60 Max Damage|-2| ||
- Enum_Classe.Desert|False|Reduces each enemy's armor.|2|50% Armor Reduction|4|90% Armor Reduction|-2| ||
- Enum_Classe.Electric|False|Electric champions shock nearby enemies whenever they deal or receive a critical strike.|2|100 Damage|3|300 Damage|4|500 Damage||
- Enum_Classe.Glacial|False|Basic Attacks from Glacials have a chance to stun their target for 1.5 seconds.|2|20% Chance to Stun|4|35% Chance to Stun|6|50% Chance to Stun||
- Enum_Classe.Inferno|False|Inferno spell damage burns the ground beneath the target, dealing a percent of that spell's pre-mitigation damage as magic damage over 4 seconds.|3|+70% Damage &amp; 1 Hex|6|+120% Damage &amp; 3 Hexes|9|+180% Damage &amp; 5 Hexes||
- Enum_Classe.Light|False|When a Light champion dies, all other Light champions gain Attack Speed and are healed for 25% of the champion's Maximum Health.|3|+15% Attack Speed|6|+25% Attack Speed|9|+35% Attack Speed||
- Enum_Classe.Mountain|False| |2|At the start of combat, a random ally gains a 1500 Stoneshield.|-1| |-2| ||
- Enum_Classe.Ocean|False|All allies restore mana every 4 seconds.|2|+15 Mana|4|+30 Mana|6|+60 Mana||
- Enum_Classe.Poison|False| |3|Poison champions apply Neurotoxin when they deal damage, increasing the target's mana cost by 50%.|-1| |-2| ||
- Enum_Classe.Shadow|False|Shadow units deal increased damage for 4 seconds at combat start, refreshed on takedown.|3|+70% Increased Damage, Self Takedown|6|+140% Increased Damage, Any Shadow Takedown|-2| ||
- Enum_Classe.Steel|False|Steel champions gain damage immunity for a few seconds when they are reduced below 50% health.|2|2 Seconds of Immunity|3|3 Seconds of Immunity.|4|4 Seconds of Immunity||
- Enum_Classe.Variable|False| |1|Origin is determined by the Element of the current match. It can be Cloud, Inferno, Ocean, or Mountain.|-1| |-2| ||
- Enum_Classe.Woodland|False| |3|At the start of combat, a random Woodland champion makes a copy of themselves.|-1| |-2| ||
- Enum_Classe.Soulbound|False| |2|The first Soulbound unit to die will instead enter the Spirit Realm, becoming untargetable and continuing to fight as long as another Soulbound unit is alive.|-1| |-2| 
+  Enum_Classe.Alchemist|True| |1|Innate: Alchemists ignore collision and never stop moving.|-1| |-2| ||
+  Enum_Classe.Assassin|True|At the start of combat, Assassins leap to the farthest enemy. Assassins gain bonus Critical Strike Damage and Chance.|3|+50% Critical Strike Damage &amp; 10% Critical Strike Chance|6|+150% Critical Strike Damage &amp; 20% Critical Strike Chance|-2| ||
+  Enum_Classe.Avatar|True| |1|An Avatar's Origin Element is counted twice for Trait bonuses.|-1| |-2| ||
+  Enum_Classe.Berserker|True|At the start of combat, Berserkers leap to the nearest enemy. Berserkers have a 40% chance to hit all units in a cone in front of them with their attacks.|3|40% Chance|6|100% Chance &amp; +25 Attack Damage|-2| ||
+  Enum_Classe.Blademaster|True|Blademaster Basic Attacks have a 40% chance to trigger additional attacks against their target.|2|1 Extra Attacks|4|2 Extra Attacks|6|3 Extra Attacks||
+  Enum_Classe.Druid|True| |2|Druids regenerate 40 health each second.|-1| |-2| ||
+  Enum_Classe.Mage|True|Mages have a chance on cast to instead Doublecast.|3|50% Chancer|6|100% Chance|-2| ||
+  Enum_Classe.Mystic|True|All allies gain increased Magic Resistance.|2|40 Magic Resistance|4|120 Magic Resistance|-2| ||
+  Enum_Classe.Predator|True| |3|Predators instantly kill enemies they damage who are below 25% health.|-1| |-2| ||
+  Enum_Classe.Ranger|True|Every 3 seconds, Rangers have a chance to double their Attack Speed for 3 seconds.|2|35% Chance to Double Attack Speed|4|80% Chance to Double Attack Speed|6|100% Chance to gain x2.5 Attack Speed||
+  Enum_Classe.Summoner|True|Summoned units have increased health and duration.|3|+30% increase|6|+120% increase|-2| ||
+  Enum_Classe.Warden|True|Wardens gain increased total Armor.|2|+150% Armor|4|+300% Armor|6|+450% Armor||
+  Enum_Classe.Cloud|False|All allies gain dodge chance.|2|+20% Dodge Chance|3|+25% Dodge Chance|4|+35% Dodge Chance||
+  Enum_Classe.Crystal|False|Crystal champions have a maximum amount of damage they can take from a single hit.|2|100 Max Damage|4|60 Max Damage|-2| ||
+  Enum_Classe.Desert|False|Reduces each enemy's armor.|2|50% Armor Reduction|4|90% Armor Reduction|-2| ||
+  Enum_Classe.Electric|False|Electric champions shock nearby enemies whenever they deal or receive a critical strike.|2|80 Damage|3|250 Damage|4|500 Damage||
+  Enum_Classe.Glacial|False|Basic Attacks from Glacials have a chance to stun their target for 1.5 seconds.|2|20% Chance to Stun|4|35% Chance to Stun|6|50% Chance to Stun||
+  Enum_Classe.Inferno|False|Inferno spell damage burns the ground beneath the target, dealing a percent of that spell's pre-mitigation damage as magic damage over 4 seconds.|3|+70% Damage &amp; 1 Hex|6|+140% Damage &amp; 3 Hexes|9|+210% Damage &amp; 5 Hexes||
+  Enum_Classe.Light|False|When a Light champion dies, all other Light champions gain Attack Speed and are healed for 25% of the champion's Maximum Health.|3|+15% Attack Speed|6|+35% Attack Speed|9|+55% Attack Speed||
+  Enum_Classe.Mountain|False| |2|At the start of combat, a random ally gains a 1500 Stoneshield.|-1| |-2| ||
+  Enum_Classe.Ocean|False|All allies restore mana every 4 seconds.|2|+10 Mana|4|+30 Mana|6|+60 Mana||
+  Enum_Classe.Poison|False| |3|Poison champions apply Neurotoxin when they deal damage, increasing the target's mana cost by 50%.|-1| |-2| ||
+  Enum_Classe.Shadow|False|Shadow units deal increased damage for 5 seconds at combat start, refreshed on takedown.|3|+65% Increased Damage, Self Takedown|6|+150% Increased Damage, Any Shadow Takedown|-2| ||
+  Enum_Classe.Steel|False|Steel champions gain damage immunity for a few seconds when they are reduced below 50% health.|2|2 Seconds of Immunity|3|3 Seconds of Immunity.|4|4 Seconds of Immunity||
+  Enum_Classe.Variable|False| |1|Origin is determined by the Element of the current match. It can be Cloud, Inferno, Ocean, or Mountain.|-1| |-2| ||
+  Enum_Classe.Woodland|False| |3|At the start of combat, a random Woodland champion makes a copy of themselves.|-1| |-2| ||
+  Enum_Classe.Soulbound|True| |2|The first Soulbound unit to die will instead enter the Spirit Realm, becoming untargetable and continuing to fight as long as another Soulbound unit is alive.|-1| |-2| ||
+  Enum_Classe.Lunar|False| |2|Every 7 seconds, your team gains 15% Critical Strike Chance, 15% Critical Strike Damage, and 10% Spell Power (Stacks up to 4 times).|-1| |-2| 
 "/>
  
 <option key="Items" value="
-B.F. Sword|Enum_Item.BFSword|Enum_Item.None|Enum_Item.None|+15 Attack Damage.||
- Chain Vest|Enum_Item.ChainVest|Enum_Item.None|Enum_Item.None|+20 Armor.||
- Giant's Belt|Enum_Item.GiantsBelt|Enum_Item.None|Enum_Item.None|+200 Health.||
- Needlessly Large Rod|Enum_Item.NeedlesslyLargeRod|Enum_Item.None|Enum_Item.None|+20% Spell Damage.||
- Negatron Cloak|Enum_Item.NegatronCloak|Enum_Item.None|Enum_Item.None|+20 Magic Resist.||
- Recurve Bow|Enum_Item.RecurveBow|Enum_Item.None|Enum_Item.None|+20% Attack Speed.||
- Spatula|Enum_Item.Spatula|Enum_Item.None|Enum_Item.None|It must do something...||
- Tear of the Goddess|Enum_Item.TearoftheGoddess|Enum_Item.None|Enum_Item.None|+20 Mana.||
- Sparring Gloves|Enum_Item.SparringGloves|Enum_Item.None|Enum_Item.None|+10% Critical Strike Chance. +10% Dodge Chance.||
- Berserker Axe|Enum_Item.BerserkerAxe|Enum_Item.Spatula|Enum_Item.SparringGloves|Wearer is also a Berserker.||
- Blade of the Ruined King|Enum_Item.BladeoftheRuinedKing|Enum_Item.Spatula|Enum_Item.RecurveBow|Wearer is also a Blademaster.||
- Bloodthirster|Enum_Item.Bloodthirster|Enum_Item.BFSword|Enum_Item.NegatronCloak|Basic Attacks heal the wearer for 40% of the damage dealt.||
- Deathblade|Enum_Item.Deathblade|Enum_Item.BFSword|Enum_Item.BFSword|Whenever the wearer kills or participates in killing an enemy, gain +15 Attack Damage for the remainder of combat. This effect can stack any number of times.||
- Dragon's Claw|Enum_Item.DragonsClaw|Enum_Item.NegatronCloak|Enum_Item.NegatronCloak|Wearer gains 50% resistance to magic damage.||
- Force of Nature|Enum_Item.ForceofNature|Enum_Item.Spatula|Enum_Item.Spatula|Gain +1 team size.||
- Frozen Heart|Enum_Item.FrozenHeart|Enum_Item.ChainVest|Enum_Item.TearoftheGoddess|Reduce the Attack Speed of adjacent enemies by 25% for 1 second.||
- Frozen Mallet|Enum_Item.FrozenMallet|Enum_Item.GiantsBelt|Enum_Item.Spatula|Wearer is also a Glacial.||
- Giant Slayer|Enum_Item.GiantSlayer|Enum_Item.BFSword|Enum_Item.RecurveBow|The wearer's basic attacks deal an additional 9% of the target's Maximum Health as true damage.||
- Guardian Angel|Enum_Item.GuardianAngel|Enum_Item.BFSword|Enum_Item.ChainVest|When the wearer dies, they cleanse negative effects and revive with up to 500 Health after a 2 second delay. This effect can trigger once per combat.||
- Guinsoo's Rageblade|Enum_Item.GuinsoosRageblade|Enum_Item.NeedlesslyLargeRod|Enum_Item.RecurveBow|Attacks grant 4% Attack Speed. Stacks infinitely.||
- Hand of Justice|Enum_Item.HandofJustice|Enum_Item.TearoftheGoddess|Enum_Item.SparringGloves|At the beginning of each planning phase, the wearer gains one of the following: Basic Attacks and Spells deal +50% Damage or Basic Attacks heal 50 Health on-hit.||
- Hextech Gunblade|Enum_Item.HextechGunblade|Enum_Item.BFSword|Enum_Item.NeedlesslyLargeRod|Basic Attacks and spells heal the wearer for 25% of the damage dealt.||
- Hush|Enum_Item.Hush|Enum_Item.NegatronCloak|Enum_Item.TearoftheGoddess|Basic Attacks have a 23% chance to silence the target on-hit, prevent the enemy from gaining mana for 4 seconds.||
- Iceborne Gauntlet|Enum_Item.IceborneGauntlet|Enum_Item.ChainVest|Enum_Item.SparringGloves|When the wearer dodges, they create a zone of ice. Enemies inside the zone have their Attack Speed reduced by 35%.||
- Inferno Cinder|Enum_Item.InfernoCinder|Enum_Item.Spatula|Enum_Item.NeedlesslyLargeRod|Wearer is also an Inferno.||
- Infinity Edge|Enum_Item.InfinityEdge|Enum_Item.BFSword|Enum_Item.SparringGloves|The wearer gains +125% Critical Strike Damage.||
- Ionic Spark|Enum_Item.IonicSpark|Enum_Item.NeedlesslyLargeRod|Enum_Item.NegatronCloak|Whenever an enemy casts a spell, the wearer deals 90 true damage to the caster.||
- Jeweled Gauntlet|Enum_Item.JeweledGauntlet|Enum_Item.NeedlesslyLargeRod|Enum_Item.SparringGloves|The wearer's spells can critically strike.||
- Locket of the Iron Solari|Enum_Item.LocketoftheIronSolari|Enum_Item.ChainVest|Enum_Item.NeedlesslyLargeRod|When combat begins, the wearer and all allies within 2 hexes in the same row gain a shield that blocks 300 damage for 8 seconds.||
- Luden's Echo|Enum_Item.LudensEcho|Enum_Item.TearoftheGoddess|Enum_Item.NeedlesslyLargeRod|When the wearer deals damage with their spell, the first target hit and up to 3 nearby enemies are dealt an additional 180 magic damage.||
- Mage's Cap|Enum_Item.MagesCap|Enum_Item.Spatula|Enum_Item.TearoftheGoddess|Wearer is also a Mage.||
- Morellonomicon|Enum_Item.Morellonomicon|Enum_Item.GiantsBelt|Enum_Item.NeedlesslyLargeRod|Spells burn for 20% of max HP over 10 seconds and reduce healing effects by 80%.||
- Phantom Dancer|Enum_Item.PhantomDancer|Enum_Item.ChainVest|Enum_Item.RecurveBow|Wearer dodges all Critical Strikes.||
- Quicksilver|Enum_Item.Quicksilver|Enum_Item.NegatronCloak|Enum_Item.SparringGloves|The wearer gains a shield that prevents the next crowd control effect from applying. This shield refreshes after 3 seconds.||
- Rabadon's Deathcap|Enum_Item.RabadonsDeathcap|Enum_Item.NeedlesslyLargeRod|Enum_Item.NeedlesslyLargeRod|Wearer gains +50% Spell Power Amplification. (All sources of Spell Power are 50% more effective)||
- Rapid Firecannon|Enum_Item.RapidFirecannon|Enum_Item.RecurveBow|Enum_Item.RecurveBow|Wearer gains +100% Attack Range.||
- Red Buff|Enum_Item.RedBuff|Enum_Item.ChainVest|Enum_Item.GiantsBelt|Attacks burn for 20% of max HP over 10 seconds and reduce healing effects by 80%.||
- Redemption|Enum_Item.Redemption|Enum_Item.GiantsBelt|Enum_Item.TearoftheGoddess|When the wearer falls below 30% Health, nearby allies are healed for 1200 Health after a 2.5 second delay. This effect can trigger once per combat.||
- Repeating Crossbow|Enum_Item.RepeatingCrossbow|Enum_Item.RecurveBow|Enum_Item.SparringGloves|When the wearer dies, Repeating Crossbow is re-equipped to a new ally and grants additional +30% Attack Speed and +20% Critical Strike Chance (Stacks infinitely).||
- Runaan's Hurricane|Enum_Item.RunaansHurricane|Enum_Item.NegatronCloak|Enum_Item.RecurveBow|Basic Attacks fire an additional missile at another nearby enemy, dealing 60% of the wearer's Attack damage and applying on-hit effects.||
- Seraph's Embrace|Enum_Item.SeraphsEmbrace|Enum_Item.TearoftheGoddess|Enum_Item.TearoftheGoddess|Regain 20 mana each time a spell is cast.||
- Spear of Shojin|Enum_Item.SpearofShojin|Enum_Item.BFSword|Enum_Item.TearoftheGoddess|After casting their spell, the wearer's Basic Attacks restore 18% of their Maximum Mana||
- Statikk Shiv|Enum_Item.StatikkShiv|Enum_Item.RecurveBow|Enum_Item.TearoftheGoddess|Every third Basic Attack from the wearer deals 100 magical damage to 3 enemies.||
- Sword Breaker|Enum_Item.SwordBreaker|Enum_Item.NegatronCloak|Enum_Item.ChainVest|Wearer's Basic Attacks have a 33% chance to disarm the target for 3 seconds, preventing that enemy from Basic Attacking.||
- Talisman of Light|Enum_Item.TalismanofLight|Enum_Item.NegatronCloak|Enum_Item.Spatula|Wearer is also a Light.||
- Thief's Gloves|Enum_Item.ThiefsGloves|Enum_Item.SparringGloves|Enum_Item.SparringGloves|At the beginning of each planning phase, the wearer equips 2 temporary items. Temporary items increase in power based on your player level.||
- Thornmail|Enum_Item.Thornmail|Enum_Item.ChainVest|Enum_Item.ChainVest|When the wearer is hit by a Basic Attack, they reflect 100% of the mitigated damage as magic damage.||
- Titanic Hydra|Enum_Item.TitanicHydra|Enum_Item.RecurveBow|Enum_Item.GiantsBelt|Basic Attacks deal an additional 3% of the wearer's Maximum Health as magic damage to the target and adjacent enemies behind them.||
- Trap Claw|Enum_Item.TrapClaw|Enum_Item.GiantsBelt|Enum_Item.SparringGloves|At the beginning of combat, the wearer gains a shield that blocks the first enemy spell that hits them. The enemy that breaks the shield is stunned for 4 seconds.||
- Warden's Mail|Enum_Item.WardensMail|Enum_Item.Spatula|Enum_Item.ChainVest|Wearer is also a Warden.||
- Warmog's Armor|Enum_Item.WarmogsArmor|Enum_Item.GiantsBelt|Enum_Item.GiantsBelt|Wearer regenerates 6% of missing health per second.||
- Youmuu's Ghostblade|Enum_Item.YoumuusGhostblade|Enum_Item.BFSword|Enum_Item.Spatula|Wearer is also an Assassin.||
- Zeke's Herald|Enum_Item.ZekesHerald|Enum_Item.BFSword|Enum_Item.GiantsBelt|When combat begins, the wearer and all allies within 2 hexes in the same row gain +15% Attack Speed for the rest of combat.||
- Zephyr|Enum_Item.Zephyr|Enum_Item.GiantsBelt|Enum_Item.NegatronCloak|When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 6 seconds.
+  B.F. Sword|Enum_Item.BFSword|Enum_Item.None|Enum_Item.None|+15 Attack Damage.||
+  Chain Vest|Enum_Item.ChainVest|Enum_Item.None|Enum_Item.None|+20 Armor.||
+  Giant's Belt|Enum_Item.GiantsBelt|Enum_Item.None|Enum_Item.None|+200 Health.||
+  Needlessly Large Rod|Enum_Item.NeedlesslyLargeRod|Enum_Item.None|Enum_Item.None|+20% Spell Damage.||
+  Negatron Cloak|Enum_Item.NegatronCloak|Enum_Item.None|Enum_Item.None|+20 Magic Resist.||
+  Recurve Bow|Enum_Item.RecurveBow|Enum_Item.None|Enum_Item.None|+20% Attack Speed.||
+  Spatula|Enum_Item.Spatula|Enum_Item.None|Enum_Item.None|It must do something...||
+  Tear of the Goddess|Enum_Item.TearoftheGoddess|Enum_Item.None|Enum_Item.None|+20 Mana.||
+  Sparring Gloves|Enum_Item.SparringGloves|Enum_Item.None|Enum_Item.None|+10% Critical Strike Chance. +10% Dodge Chance.||
+  Berserker Axe|Enum_Item.BerserkerAxe|Enum_Item.Spatula|Enum_Item.SparringGloves|Wearer is also a Berserker.||
+  Blade of the Ruined King|Enum_Item.BladeoftheRuinedKing|Enum_Item.Spatula|Enum_Item.RecurveBow|Wearer is also a Blademaster.||
+  Bloodthirster|Enum_Item.Bloodthirster|Enum_Item.BFSword|Enum_Item.NegatronCloak|Basic Attacks heal the wearer for 40% of the damage dealt.||
+  Deathblade|Enum_Item.Deathblade|Enum_Item.BFSword|Enum_Item.BFSword|Whenever the wearer kills or participates in killing an enemy, gain +15 Attack Damage for the remainder of combat. This effect can stack any number of times.||
+  Dragon's Claw|Enum_Item.DragonsClaw|Enum_Item.NegatronCloak|Enum_Item.NegatronCloak|Wearer gains 50% resistance to magic damage.||
+  Force of Nature|Enum_Item.ForceofNature|Enum_Item.Spatula|Enum_Item.Spatula|Gain +1 team size.||
+  Frozen Heart|Enum_Item.FrozenHeart|Enum_Item.ChainVest|Enum_Item.TearoftheGoddess|Nearby enemies' attack speed is slowed by 40%. (Stacking increases the radius of this effect, not the amount of the slow)||
+  Frozen Mallet|Enum_Item.FrozenMallet|Enum_Item.GiantsBelt|Enum_Item.Spatula|Wearer is also a Glacial.||
+  Giant Slayer|Enum_Item.GiantSlayer|Enum_Item.BFSword|Enum_Item.RecurveBow|The wearer's basic attacks deal an additional 9% of the target's Maximum Health as true damage.||
+  Guardian Angel|Enum_Item.GuardianAngel|Enum_Item.BFSword|Enum_Item.ChainVest|When the wearer dies, they cleanse negative effects and revive with up to 500 Health after a 2 second delay. This effect can trigger once per combat.||
+  Guinsoo's Rageblade|Enum_Item.GuinsoosRageblade|Enum_Item.NeedlesslyLargeRod|Enum_Item.RecurveBow|Attacks grant 4% Attack Speed. Stacks infinitely.||
+  Hand of Justice|Enum_Item.HandofJustice|Enum_Item.TearoftheGoddess|Enum_Item.SparringGloves|At the beginning of each planning phase, the wearer gains one of the following: Basic Attacks and Spells deal +50% Damage or Basic Attacks heal 50 Health on-hit.||
+  Hextech Gunblade|Enum_Item.HextechGunblade|Enum_Item.BFSword|Enum_Item.NeedlesslyLargeRod|Basic Attacks and spells heal the wearer for 25% of the damage dealt.||
+  Hush|Enum_Item.Hush|Enum_Item.NegatronCloak|Enum_Item.TearoftheGoddess|Basic Attacks have a 20% chance to silence the target on-hit, prevent the enemy from gaining mana for 4 seconds.||
+  Iceborne Gauntlet|Enum_Item.IceborneGauntlet|Enum_Item.ChainVest|Enum_Item.SparringGloves|After casting a spell, the wearer’s next basic attack freezes the target for 1.5 seconds.||
+  Inferno Cinder|Enum_Item.InfernoCinder|Enum_Item.Spatula|Enum_Item.NeedlesslyLargeRod|Wearer is also an Inferno.||
+  Infinity Edge|Enum_Item.InfinityEdge|Enum_Item.BFSword|Enum_Item.SparringGloves|The wearer gains +125% Critical Strike Damage.||
+  Ionic Spark|Enum_Item.IonicSpark|Enum_Item.NeedlesslyLargeRod|Enum_Item.NegatronCloak|Enemies within 3 hexes that cast a spell are zapped, taking magic damage equal to 200% of their max Mana.||
+  Jeweled Gauntlet|Enum_Item.JeweledGauntlet|Enum_Item.NeedlesslyLargeRod|Enum_Item.SparringGloves|The wearer's spells can critically strike.||
+  Locket of the Iron Solari|Enum_Item.LocketoftheIronSolari|Enum_Item.ChainVest|Enum_Item.NeedlesslyLargeRod|Shields allies within two hexes in the same row for 250/275/300 damage for 8 seconds (scales with wearer’s Star Level).||
+  Luden's Echo|Enum_Item.LudensEcho|Enum_Item.TearoftheGoddess|Enum_Item.NeedlesslyLargeRod|Deals 120/160/200 magic damage (scales with wearer’s Star Level)||
+  Mage's Cap|Enum_Item.MagesCap|Enum_Item.Spatula|Enum_Item.TearoftheGoddess|Wearer is also a Mage.||
+  Morellonomicon|Enum_Item.Morellonomicon|Enum_Item.GiantsBelt|Enum_Item.NeedlesslyLargeRod|Spells burn for 18% of max HP over 10 seconds and reduce healing effects by 80%.||
+  Quicksilver|Enum_Item.Quicksilver|Enum_Item.NegatronCloak|Enum_Item.SparringGloves|[UNIQUE] The wearer is immune to Crowd Control.||
+  Rabadon's Deathcap|Enum_Item.RabadonsDeathcap|Enum_Item.NeedlesslyLargeRod|Enum_Item.NeedlesslyLargeRod|Wearer gains +50% Spell Power Amplification. (All sources of Spell Power are 50% more effective)||
+  Rapid Firecannon|Enum_Item.RapidFirecannon|Enum_Item.RecurveBow|Enum_Item.RecurveBow|Wearer gains +100% Attack Range.||
+  Red Buff|Enum_Item.RedBuff|Enum_Item.ChainVest|Enum_Item.GiantsBelt|Attacks burn for 18% of max HP over 10 seconds and reduce healing effects by 80%.||
+  Redemption|Enum_Item.Redemption|Enum_Item.GiantsBelt|Enum_Item.TearoftheGoddess|When the wearer falls below 30% Health, nearby allies are healed for 1200 Health after a 2.5 second delay. This effect can trigger once per combat.||
+  Runaan's Hurricane|Enum_Item.RunaansHurricane|Enum_Item.NegatronCloak|Enum_Item.RecurveBow|Basic Attacks fire an additional missile at another nearby enemy, dealing 60% of the wearer's Attack damage and applying on-hit effects.||
+  Seraph's Embrace|Enum_Item.SeraphsEmbrace|Enum_Item.TearoftheGoddess|Enum_Item.TearoftheGoddess|Regain 20 mana each time a spell is cast.||
+  Spear of Shojin|Enum_Item.SpearofShojin|Enum_Item.BFSword|Enum_Item.TearoftheGoddess|After casting their spell, the wearer's Basic Attacks restore 18% of their Maximum Mana||
+  Statikk Shiv|Enum_Item.StatikkShiv|Enum_Item.RecurveBow|Enum_Item.TearoftheGoddess|Deals 80 magic damage to 3/4/5 enemies (scales with wearer’s Star Level)||
+  Sword Breaker|Enum_Item.SwordBreaker|Enum_Item.NegatronCloak|Enum_Item.ChainVest|Wearer's Basic Attacks have a 33% chance to disarm the target for 3 seconds, preventing that enemy from Basic Attacking.||
+  Talisman of Light|Enum_Item.TalismanofLight|Enum_Item.NegatronCloak|Enum_Item.Spatula|Wearer is also a Light.||
+  Thief's Gloves|Enum_Item.ThiefsGloves|Enum_Item.SparringGloves|Enum_Item.SparringGloves|At the beginning of each planning phase, the wearer equips 2 temporary items. Temporary items increase in power based on your player level.||
+  Titanic Hydra|Enum_Item.TitanicHydra|Enum_Item.RecurveBow|Enum_Item.GiantsBelt|Basic Attacks deal an additional 3% of the wearer's Maximum Health as magic damage to the target and adjacent enemies behind them.||
+  Trap Claw|Enum_Item.TrapClaw|Enum_Item.GiantsBelt|Enum_Item.SparringGloves|At the beginning of combat, the wearer gains a shield that blocks the first enemy spell that hits them. The enemy that breaks the shield is stunned for 4 seconds.||
+  Warden's Mail|Enum_Item.WardensMail|Enum_Item.Spatula|Enum_Item.ChainVest|Wearer is also a Warden.||
+  Warmog's Armor|Enum_Item.WarmogsArmor|Enum_Item.GiantsBelt|Enum_Item.GiantsBelt|Wearer regenerates 6% of missing health per second.||
+  Youmuu's Ghostblade|Enum_Item.YoumuusGhostblade|Enum_Item.BFSword|Enum_Item.Spatula|Wearer is also an Assassin.||
+  Zeke's Herald|Enum_Item.ZekesHerald|Enum_Item.BFSword|Enum_Item.GiantsBelt|When combat begins, the wearer and all allies within 2 hexes in the same row gain +15% Attack Speed for the rest of combat.||
+  Zephyr|Enum_Item.Zephyr|Enum_Item.GiantsBelt|Enum_Item.NegatronCloak|When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 6 seconds.||
+  Bramble Vest|Enum_Item.BrambleVest|Enum_Item.ChainVest|Enum_Item.ChainVest|Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 80/120/160, magic damage to all nearby enemies (once every 1 second max).||
+  Last Whisper|Enum_Item.LastWhisper|Enum_Item.SparringGloves|Enum_Item.RecurveBow|Critical hits reduce the target’s Armor by 90% for 3 seconds. This effect does not stack.||
+  Titan’s Resolve1|Enum_Item.TitansResolve|Enum_Item.ChainVest|Enum_Item.RecurveBow|When the wearer is hit or inflicts a critical hit, they gain a 2% stacking damage bonus, max 100%. At 50 stacks, the wearer gains 25 Armor and MR; and increases in size.
 "/>
 </options>
