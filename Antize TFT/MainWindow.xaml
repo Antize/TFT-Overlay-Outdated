@@ -1,0 +1,71 @@
+﻿<Window        
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"        
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"        
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
+    xmlns:local="clr-namespace:Antize_TFT"        
+    xmlns:Fenetre="clr-namespace:Antize_TFT.Fenetre" x:Class="Antize_TFT.MainWindow"        
+    mc:Ignorable="d"
+        
+    Title="Antize TFT" Height="95" MaxHeight="100" MinHeight="95" Width="630" MaxWidth="885" MinWidth="455"
+    Topmost="True" 
+    AllowsTransparency="True"         
+    Background="Transparent"       
+    WindowStyle="None"           
+    ShowInTaskbar ="True"        
+    WindowStartupLocation="CenterScreen"       
+    ResizeMode="CanResizeWithGrip"
+    
+    MouseDown="Window_MouseDown"
+    MouseEnter="Window_MouseEnter"
+    MouseLeave="Window_MouseLeave"
+        
+    SizeChanged="Window_SizeChanged" 
+    LocationChanged="Window_LocationChanged"    
+    Closing="Window_Closing" 
+    Closed="Window_Closed"
+>
+
+    <Window.Resources>
+        <Style TargetType="Separator">
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#1E282D">
+        <Grid Background="#010C17" Margin="2">           
+            <WrapPanel x:Name="StackPanel_Champions" Width="Auto" Height="80" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Transparent" Margin="10,0,0,0">
+
+            </WrapPanel>
+
+            <WrapPanel Margin="3,0,0,0">
+                <TextBlock Text="Ver 1.56" Foreground="#B79761" FontSize="12" FontWeight="DemiBold" />
+                
+                <TextBlock Text="  |  " Foreground="#B79761" FontSize="12" FontWeight="DemiBold" Margin="0,-1,0,0"/>
+
+                <TextBlock Name="Moins" Text="-" Foreground="White" FontSize="16" FontWeight="Black" Cursor="Hand" MouseDown="Moins_MouseDown" Margin="0,-4,0,0"/>
+                <TextBlock Text="   "/>
+                <TextBlock Name="Plus" Text="+" Foreground="White" FontSize="16" FontWeight="Black" Cursor="Hand" MouseDown="Plus_MouseDown" Margin="0,-4,0,0"/>
+
+                <TextBlock Text="  |  " Foreground="#B79761" FontSize="12" FontWeight="DemiBold" Margin="0,-1,0,0"/>
+                
+                <TextBlock Name="TextProfile" Text="Profile : " Foreground="#B79761" FontSize="12" FontWeight="DemiBold" Cursor="Hand" MouseDown="SelectedProfile_MouseDown"  />
+                <TextBlock Name="SelectedProfile" Text="1" Foreground="#B79761" FontSize="12" FontWeight="DemiBold" Cursor="Hand" MouseDown="SelectedProfile_MouseDown"  />
+                <TextBlock Text=" - " Foreground="#B79761" FontSize="12" FontWeight="DemiBold" Margin="0,-1,0,0"/>
+                <TextBlock Name="SubProfile" Text="1" Foreground="#B79761" FontSize="12" FontWeight="DemiBold" Cursor="Hand" MouseDown="SubProfile_MouseDown"  />
+
+                <TextBlock Text="  |  " Foreground="#B79761" FontSize="12" FontWeight="DemiBold" Margin="0,-1,0,0"/>
+
+                <TextBlock Name="ActualNumber" Text="0" Foreground="#B79761" FontSize="12" FontWeight="DemiBold"/>
+                <TextBlock  Text="/10" Foreground="#B79761" FontSize="12" FontWeight="DemiBold"  />
+            </WrapPanel>
+
+            <Image x:Name="Image_Placement" Height="17" Width="17" Margin="2.5,0,0,55" HorizontalAlignment="Left" VerticalAlignment="Bottom" Stretch="Uniform" MouseDown="Image_Placement_MouseDown"  Source="/Antize TFT;component/Ressources/PositionOff.png" Cursor="Hand"/>
+            <Image x:Name="Image_Item" Height="17" Width="17" Margin="2.5,0,0,31" HorizontalAlignment="Left" VerticalAlignment="Bottom" Stretch="Uniform" MouseDown="Image_Item_MouseDown"  Source="/Antize TFT;component/Ressources/Armor.png" Cursor="Hand"/>
+            <Image x:Name="Image_ShowList" Height="17" Width="17" Margin="2.5,0,0,5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Stretch="Uniform" MouseDown="ImageShowList_MouseDown" Source="/Antize TFT;component/Ressources/FlecheDown.png" Cursor="Hand"/>
+
+            <TextBox Name="MyTextBox" Height="20" Width="140" Text="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,20,0,0" KeyDown="TextBox_KeyDown" Background="#1E282D" BorderBrush="Gray" Foreground="White" Visibility="Hidden"/>
+        </Grid>
+    </Grid>
+</Window>
+
