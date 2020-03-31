@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Antize_TFT.Fenetre.SlotPlacement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Antize_TFT.Fenetre"
+             mc:Ignorable="d" 
+             d:DesignHeight="35" d:DesignWidth="35">
+    
+    <Grid>
+        <Border Name="Statut" Width="30" Height="30" Background="Transparent" BorderBrush="#2890AC" BorderThickness="1">
+            <Image Name="ChampionIcon" Source="/Antize TFT;component/Ressources/empty.png" Width="28" Height="28"/>
+        </Border>
+
+        <Image Name="ImageForMouse" Opacity="0.05" Source="/Antize TFT;component/Ressources/empty.png" Cursor="Hand" MouseDown="Icon_MouseDown"/>
+    </Grid>
+</UserControl>

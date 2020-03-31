@@ -1,0 +1,195 @@
+﻿<Window 
+    x:Class="Antize_TFT.Fenetre.GestionItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Antize_TFT.Fenetre"
+    mc:Ignorable="d"
+    
+    Title="Antize | Gestion items" Height="450" MaxHeight="800" MinHeight="400" Width="630" MaxWidth="630" MinWidth="630"
+    AllowsTransparency="True" 
+    Background="Transparent"
+    WindowStyle="None"
+    ShowInTaskbar ="False"        
+    Topmost="True"
+        
+    MouseDown="Window_MouseDown"
+    LocationChanged="Window_LocationChanged"
+    ResizeMode="CanResizeWithGrip"
+    
+    MouseEnter="Window_MouseEnter"
+    MouseLeave="Window_MouseLeave"
+>
+
+    <Window.Resources>
+        <Style x:Key="ScrollThumbs" TargetType="{x:Type Thumb}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Thumb}">
+                        <Grid x:Name="Grid">
+                            <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto" Fill="Transparent" />
+                            <Border x:Name="Rectangle1" CornerRadius="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto"  Background="{TemplateBinding Background}" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="Tag" Value="Horizontal">
+                                <Setter TargetName="Rectangle1" Property="Width" Value="Auto" />
+                                <Setter TargetName="Rectangle1" Property="Height" Value="7" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!--ScrollBars-->
+        <Style x:Key="{x:Type ScrollBar}" TargetType="{x:Type ScrollBar}">
+            <Setter Property="Stylus.IsFlicksEnabled" Value="false" />
+            <Setter Property="Foreground" Value="#B79761" />
+            <Setter Property="Background" Value="Black" />
+            <Setter Property="Width" Value="10" />
+            <Setter Property="Margin" Value="0,0,-7,0" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ScrollBar}">
+                        <Grid x:Name="GridRoot" Width="8" Background="{TemplateBinding Background}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.00001*" />
+                            </Grid.RowDefinitions>
+
+                            <Track x:Name="PART_Track" Grid.Row="0" IsDirectionReversed="true" Focusable="false">
+                                <Track.Thumb>
+                                    <Thumb x:Name="Thumb" Background="{TemplateBinding Foreground}" Style="{DynamicResource ScrollThumbs}" />
+                                </Track.Thumb>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton x:Name="PageUp" Command="ScrollBar.PageDownCommand" Opacity="0" Focusable="false" />
+                                </Track.IncreaseRepeatButton>
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton x:Name="PageDown" Command="ScrollBar.PageUpCommand" Opacity="0" Focusable="false" />
+                                </Track.DecreaseRepeatButton>
+                            </Track>
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger SourceName="Thumb" Property="IsMouseOver" Value="true">
+                                <Setter Value="{DynamicResource ButtonSelectBrush}" TargetName="Thumb" Property="Background" />
+                            </Trigger>
+                            <Trigger SourceName="Thumb" Property="IsDragging" Value="true">
+                                <Setter Value="{DynamicResource DarkBrush}" TargetName="Thumb" Property="Background" />
+                            </Trigger>
+
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="Thumb" Property="Visibility" Value="Collapsed" />
+                            </Trigger>
+                            <Trigger Property="Orientation" Value="Horizontal">
+                                <Setter TargetName="GridRoot" Property="LayoutTransform">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="-90" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="PART_Track" Property="LayoutTransform">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="-90" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Width" Value="Auto" />
+                                <Setter Property="Height" Value="12" />
+                                <Setter TargetName="Thumb" Property="Tag" Value="Horizontal" />
+                                <Setter TargetName="PageDown" Property="Command" Value="ScrollBar.PageLeftCommand" />
+                                <Setter TargetName="PageUp" Property="Command" Value="ScrollBar.PageRightCommand" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        
+        
+        
+        <Style TargetType="{x:Type ListViewItem}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ListViewItem}">
+                        <ContentPresenter />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#1E282D">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="175" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125" />
+            <ColumnDefinition Width="180" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="#010C17" Margin="2,2,2,0" >
+            <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Margin="5,0,5,0">
+                <TextBlock Name="Champion_Name" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Text="Champion Name" FontSize="15" Foreground="White" FontWeight="Black" />
+                <Image x:Name="Champion_Icon"   HorizontalAlignment="Center"  Height="95" Width="95" Stretch="Uniform" Source="/Antize TFT;component/Ressources/Champions/Warwick.png" Margin="10"/>
+            </WrapPanel>
+        </Grid>
+
+        <Grid Background="#010C17" Margin="0,2,0,0" Grid.Column="1">
+            <WrapPanel Orientation="Horizontal" Margin="0,0,0,5" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Image x:Name="Stuff1" Height="40" Width="40" Stretch="Uniform" Source="/Antize TFT;component/Ressources/Empty.png" Margin="8,0,8,0" MouseDown="Stuff_MouseDown" MouseEnter="Stuff_MouseEnter" MouseLeave="Stuff_MouseLeave" Cursor="Hand"/>
+                <Image x:Name="Stuff2" Height="40" Width="40" Stretch="Uniform" Source="/Antize TFT;component/Ressources/Empty.png" Margin="8,0,8,0" MouseDown="Stuff_MouseDown" MouseEnter="Stuff_MouseEnter" MouseLeave="Stuff_MouseLeave" Cursor="Hand"/>
+                <Image x:Name="Stuff3" Height="40" Width="40" Stretch="Uniform" Source="/Antize TFT;component/Ressources/Empty.png" Margin="8,0,8,0" MouseDown="Stuff_MouseDown" MouseEnter="Stuff_MouseEnter" MouseLeave="Stuff_MouseLeave" Cursor="Hand"/>
+            </WrapPanel>
+        </Grid>
+
+        <Grid Background="#010C17" Margin="2,2,2,0" Grid.Column="2">
+            <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal" Margin="5,10,5,0">
+                <Image x:Name="Item_Icon" Height="30" Width="30" Stretch="Uniform" Source="/Antize TFT;component/Ressources/Empty.png" Margin="0,0,10,0" />
+                <TextBlock Name="Item_Name" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Item name" FontSize="15" Foreground="#7B8084" FontWeight="Bold" />
+            </WrapPanel>
+
+            <TextBlock Name="Item_Description" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Item description" FontSize="15" Foreground="#F0E6D2" Margin="5,0,5,10" FontWeight="SemiBold"/>
+
+            <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Orientation="Horizontal" Margin="0,0,0,10">
+                <Image x:Name="Need1" Height="40" Width="40" Stretch="Uniform" Source="/Antize TFT;component/Ressources/Empty.png" />
+
+                <TextBlock VerticalAlignment="Center" TextWrapping="Wrap" Text="+" FontSize="15" Foreground="#B79761" Margin="15,0,15,0" FontWeight="Black"/>
+
+                <Image x:Name="Need2" Height="40" Width="40" Stretch="Uniform" Source="/Antize TFT;component/Ressources/Empty.png" />
+            </WrapPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" Background="Transparent" VerticalAlignment="Stretch" Grid.ColumnSpan="3" >
+            <ListView Name="ListItems" Background="#010C17" Margin="2"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="#040E18" VerticalAlignment="Stretch">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" Margin="10,10, 0,10" VerticalAlignment="Stretch" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+
+                <WrapPanel Orientation="Vertical" Name="MyMain" >
+                    <TextBox Name="TextBox_Filter" Height="20" Width="{Binding ElementName=MyMain, Path=ActualWidth}" Text="" HorizontalAlignment="Left" VerticalAlignment="Top" TextChanged="TextBox_Filter_TextChanged"  Background="#1E282D" BorderBrush="Gray" Foreground="White" Margin="0,0,0,5" />
+
+                    <TextBlock Text="Base" FontWeight="Bold" FontSize="18" Foreground="#B79761"/>
+                    <Separator Background="#B79761"/>
+
+                    <WrapPanel x:Name="WrapPanel_Base" Orientation="Horizontal" Width="Auto" Height="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    </WrapPanel>
+
+
+                    <TextBlock Text="Combined" FontWeight="Bold" FontSize="18" Foreground="#B79761" Margin="0,20,0,0"/>
+                    <Separator Background="#B79761"/>
+
+                    <WrapPanel x:Name="WrapPanel_Combined" Orientation="Horizontal" Width="Auto" Height="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    </WrapPanel>
+
+                </WrapPanel>
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>

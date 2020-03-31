@@ -1,0 +1,15 @@
+﻿<UserControl 
+    x:Class="Antize_TFT.Fenetre.SlotItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:local="clr-namespace:Antize_TFT.Fenetre"
+    mc:Ignorable="d" 
+    d:DesignHeight="60" d:DesignWidth="60"
+>    
+
+    <Grid>
+        <Image Name="ItemIcon" Height="40" Width="40" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Source="/Antize TFT;component/Ressources/Empty.png" Margin="10" MouseEnter="ItemIcon_MouseEnter" MouseLeave="ItemIcon_MouseLeave" MouseDown="ItemIcon_MouseDown" Cursor="Hand"/>
+    </Grid>
+</UserControl>

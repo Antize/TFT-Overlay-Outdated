@@ -1,0 +1,72 @@
+﻿<Window x:Class="Antize_TFT.Fenetre.Placement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Antize_TFT.Fenetre"
+        mc:Ignorable="d"
+        Title="Antize | Placement" Height="165" MaxHeight="165" MinHeight="165" Width="325" MaxWidth="325" MinWidth="325"
+           
+    AllowsTransparency="True" 
+    Background="Transparent"
+    WindowStyle="None"
+    ShowInTaskbar ="False"
+    Topmost="True"
+        
+        
+    MouseEnter="Window_MouseEnter"
+    MouseLeave="Window_MouseLeave"
+    MouseDown="Window_MouseDown"
+    LocationChanged="Window_LocationChanged"   
+      >
+    
+    <Grid Background="#1E282D">
+        <Grid Background="#010C17" Margin="2">
+            <TextBlock Name="Reset" Text="Reset" Foreground="White" Cursor="Hand" FontWeight="DemiBold" Margin="10" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+
+            <WrapPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <WrapPanel Orientation="Horizontal" Margin="0,0,0,10" HorizontalAlignment="Center">
+                    <TextBlock Name="EnAttente" Text="En attente :  " Foreground="#B79761"  VerticalAlignment="Center" FontWeight="DemiBold" />
+                    <Image Name="Attente" Width="30" Height="30" VerticalAlignment="Center" Source="/Antize TFT;component/Ressources/empty.png"/>
+                </WrapPanel>
+
+                <WrapPanel Name="Panel_1" Orientation="Horizontal">
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                </WrapPanel>
+
+                <WrapPanel Name="Panel_2" Orientation="Horizontal" Margin="-20,0,0,0">
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                </WrapPanel>
+
+                <WrapPanel Name="Panel_3" Orientation="Horizontal">
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                    <Image  Width="35" Height="35"  Source="/Antize TFT;component/Ressources/empty.png"/>
+                </WrapPanel>
+
+            </WrapPanel>
+        </Grid>
+    </Grid>
+</Window>
