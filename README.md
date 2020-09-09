@@ -25,9 +25,7 @@ Antize TFT Overlay can be put over your game to get an overview of your team and
 LoL: Teamfight tool Tactics, League of Legends: TFT tool overlay.
 
 ## Do you have an issue or Feedback ?
-If you have an issue, Feedback or you think there is an error in data, just open an issue or send me a message through Discord, I will proceed to the changes as soon as possible.
-
-[Come on Discord:](https://discord.gg/GXZwBeG) https://discord.gg/GXZwBeG
+If you have an issue, Feedback or you think there is an error in data, just open an issue, I will proceed to the changes as soon as possible.
 
 ## Known issues
 - If **Antize TFT Overlay** is launched as admin Malwarebytes detects as false positive, general problem with C# software.
